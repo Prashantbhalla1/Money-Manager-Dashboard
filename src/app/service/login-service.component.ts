@@ -11,7 +11,7 @@ import { Injectable } from "@angular/core";
 export class LoginService{
 
 
-base_url='http://localhost:8080'
+base_url='https://money-manager-kj9q.onrender.com'
 constructor(private http:HttpClient){}
 
 

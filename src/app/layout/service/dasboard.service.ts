@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DashboardService{
 
-  private API="http://localhost:8080";
+  private API="https://money-manager-kj9q.onrender.com";
 
   constructor(private http:HttpClient){}
 

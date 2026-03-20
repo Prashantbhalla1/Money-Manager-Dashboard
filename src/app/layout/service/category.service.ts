@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class CategoryService{
 
-  private API="http://localhost:8080/categories";
+  private API="https://money-manager-kj9q.onrender.com/categories";
 
   constructor(private http:HttpClient){}
 

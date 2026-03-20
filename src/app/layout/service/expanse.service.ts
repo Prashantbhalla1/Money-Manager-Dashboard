@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ExpanseService{
 
- API="http://localhost:8080/expanse"
+ API="https://money-manager-kj9q.onrender.com/expanse"
 
  constructor(private http:HttpClient){}
 

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class FilterService{
 
- API="http://localhost:8080/dashboard"
+ API="https://money-manager-kj9q.onrender.com/dashboard"
 
  constructor(private http:HttpClient){}
 
