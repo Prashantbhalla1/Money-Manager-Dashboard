@@ -1,0 +1,27 @@
+<div class="navbar">
+
+    <div class="logo" style="font-weight: bolder;" >
+      🐷 Money Manager
+    </div>
+  
+
+    <div class="profile-section">
+  
+      <div class="profile" (click)="toggleMenu()">
+  
+        <img src="../../../assets/images/user_image.png">
+  
+      </div>
+  
+      <div class="dropdown" *ngIf="showMenu">
+  
+        <p class="name">{{userName}}</p>
+        <p class="email">{{email}}</p>
+  
+        <button (click)="logout()">Logout</button>
+  
+      </div>
+  
+    </div>
+  
+  </div>

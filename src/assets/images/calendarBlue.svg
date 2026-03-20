@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <filter id="Path_13249" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_14659" data-name="Group 14659" transform="translate(-353 -130)">
+    <g id="Group_14588" data-name="Group 14588">
+      <g id="Group_13692" data-name="Group 13692" transform="translate(-254 88.309)" opacity="0.862">
+        <g transform="matrix(1, 0, 0, 1, 607, 41.69)" filter="url(#Path_13249)">
+          <path id="Path_13249-2" data-name="Path 13249" d="M22,0A22,22,0,1,1,0,22,22,22,0,0,1,22,0Z" transform="translate(9 6)" fill="#0f1f54"/>
+        </g>
+        <g id="Component_153" data-name="Component 153" transform="translate(625.131 58.191)">
+          <g id="Component_147_2" data-name="Component 147 – 2">
+            <g id="calendar_2_" data-name="calendar (2)">
+              <g id="Group_2764" data-name="Group 2764">
+                <g id="Group_2763" data-name="Group 2763">
+                  <path id="Path_3315" data-name="Path 3315" d="M279,280.628a1.746,1.746,0,0,0,1.811,1.668h2.128a1.746,1.746,0,0,0,1.811-1.668v-1.96A1.746,1.746,0,0,0,282.939,277h-2.128A1.746,1.746,0,0,0,279,278.668Zm1.811-1.96h2.128v1.96h-2.129Z" transform="translate(-264.133 -263.731)" fill="#fff"/>
+                  <circle id="Ellipse_1103" data-name="Ellipse 1103" cx="1.066" cy="1.066" r="1.066" transform="translate(18.859 8.887)" fill="#fff"/>
+                  <circle id="Ellipse_1104" data-name="Ellipse 1104" cx="1.066" cy="1.066" r="1.066" transform="translate(13.886 8.887)" fill="#fff"/>
+                  <path id="Path_3316" data-name="Path 3316" d="M24.733,15.827a.957.957,0,0,0,1.005-.9V5.4a3.831,3.831,0,0,0-4.022-3.6H20.41V.9A1.012,1.012,0,0,0,18.4.9v.9H13.824V.9a1.012,1.012,0,0,0-2.011,0v.9H7.289V.9A.957.957,0,0,0,6.284,0,.957.957,0,0,0,5.278.9v.9H4.022A3.831,3.831,0,0,0,0,5.4V19.424a3.831,3.831,0,0,0,4.022,3.6h17.7a3.831,3.831,0,0,0,4.022-3.6,1.012,1.012,0,0,0-2.011,0,1.916,1.916,0,0,1-2.011,1.8H4.022a1.916,1.916,0,0,1-2.011-1.8V5.4A1.916,1.916,0,0,1,4.022,3.6H5.278v.9a.957.957,0,0,0,1.005.9.957.957,0,0,0,1.005-.9V3.6h4.524v.9a1.012,1.012,0,0,0,2.011,0V3.6H18.4v.9a1.012,1.012,0,0,0,2.011,0V3.6h1.307a1.916,1.916,0,0,1,2.011,1.8v9.532A.957.957,0,0,0,24.733,15.827Z" fill="#fff"/>
+                  <ellipse id="Ellipse_1105" data-name="Ellipse 1105" cx="1.066" cy="1.421" rx="1.066" ry="1.421" transform="translate(5.361 15.991)" fill="#fff"/>
+                  <circle id="Ellipse_1106" data-name="Ellipse 1106" cx="1.066" cy="1.066" r="1.066" transform="translate(5.361 8.887)" fill="#fff"/>
+                  <circle id="Ellipse_1107" data-name="Ellipse 1107" cx="1.066" cy="1.066" r="1.066" transform="translate(5.361 12.439)" fill="#fff"/>
+                  <circle id="Ellipse_1108" data-name="Ellipse 1108" cx="1.066" cy="1.066" r="1.066" transform="translate(9.624 12.439)" fill="#fff"/>
+                  <circle id="Ellipse_1109" data-name="Ellipse 1109" cx="1.066" cy="1.066" r="1.066" transform="translate(9.624 8.887)" fill="#fff"/>
+                  <ellipse id="Ellipse_1110" data-name="Ellipse 1110" cx="1.066" cy="1.421" rx="1.066" ry="1.421" transform="translate(9.624 15.991)" fill="#fff"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

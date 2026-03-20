@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <filter id="Ellipse_1527" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10223" data-name="Group 10223" transform="translate(-751 -302)">
+    <g transform="matrix(1, 0, 0, 1, 751, 302)" filter="url(#Ellipse_1527)">
+      <circle id="Ellipse_1527-2" data-name="Ellipse 1527" cx="22" cy="22" r="22" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="Group_10222" data-name="Group 10222" transform="translate(772 323)">
+      <g id="edit">
+        <path id="Path_1430" data-name="Path 1430" d="M17.994,1.273a4.243,4.243,0,0,0-6.006,0L.977,12.28a.551.551,0,0,0-.156.316L.006,18.638a.549.549,0,0,0,.156.463.56.56,0,0,0,.389.164.446.446,0,0,0,.074,0l3.64-.492a.554.554,0,1,0-.148-1.1L1.2,18.064l.57-4.214L6.2,18.286a.56.56,0,0,0,.389.164.543.543,0,0,0,.389-.164L17.994,7.279a4.241,4.241,0,0,0,0-6.006ZM12.2,2.626,14.05,4.475,4,14.522,2.154,12.674ZM6.6,17.113,4.79,15.305,14.837,5.258l1.808,1.808ZM17.416,6.274,12.993,1.851a3.142,3.142,0,0,1,4.423,4.423Z" transform="translate(0 -0.028)" fill="#0f1f54"/>
+      </g>
+      <g id="edit-2" data-name="edit">
+        <path id="Path_1430-2" data-name="Path 1430" d="M17.994,1.273a4.243,4.243,0,0,0-6.006,0L.977,12.28a.551.551,0,0,0-.156.316L.006,18.638a.549.549,0,0,0,.156.463.56.56,0,0,0,.389.164.446.446,0,0,0,.074,0l3.64-.492a.554.554,0,1,0-.148-1.1L1.2,18.064l.57-4.214L6.2,18.286a.56.56,0,0,0,.389.164.543.543,0,0,0,.389-.164L17.994,7.279a4.241,4.241,0,0,0,0-6.006ZM12.2,2.626,14.05,4.475,4,14.522,2.154,12.674ZM6.6,17.113,4.79,15.305,14.837,5.258l1.808,1.808ZM17.416,6.274,12.993,1.851a3.142,3.142,0,0,1,4.423,4.423Z" transform="translate(0 -0.028)" fill="#0f1f54"/>
+      </g>
+    </g>
+  </g>
+</svg>

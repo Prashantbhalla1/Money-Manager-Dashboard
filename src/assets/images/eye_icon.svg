@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <filter id="Rectangle_3040" x="0" y="0" width="59" height="59" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_5_6" data-name="Component 5 – 6" transform="translate(7.5 7.5)">
+    <g id="Group_10258" data-name="Group 10258">
+      <g transform="matrix(1, 0, 0, 1, -7.5, -7.5)" filter="url(#Rectangle_3040)">
+        <g id="Rectangle_3040-2" data-name="Rectangle 3040" transform="translate(7.5 7.5)" fill="#fff" stroke="#eaeaea" stroke-width="1">
+          <rect width="44" height="44" rx="22" stroke="none"/>
+          <rect x="0.5" y="0.5" width="43" height="43" rx="21.5" fill="none"/>
+        </g>
+      </g>
+      <path id="iconmonstr-eye-thin" d="M13.754,22.323C7.953,22.323,2.776,17.5,0,12.676,2.769,7.977,7.951,4,13.754,4,19.634,4,24.788,7.954,27.5,12.662,24.929,17.736,19.793,22.323,13.754,22.323ZM1.338,12.685c.965,1.524,5.747,8.493,12.416,8.493,7.22,0,11.58-6.989,12.427-8.48-.884-1.372-5.275-7.553-12.427-7.553C6.75,5.145,2.273,11.278,1.338,12.685Zm12.4-5.25a5.726,5.726,0,1,1-5.726,5.726,5.728,5.728,0,0,1,5.726-5.726Zm0,1.145a4.581,4.581,0,1,1-4.581,4.581A4.582,4.582,0,0,1,13.742,8.581Z" transform="translate(8 9)" fill="#0f1f54" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

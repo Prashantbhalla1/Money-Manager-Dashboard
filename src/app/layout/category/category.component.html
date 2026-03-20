@@ -1,0 +1,52 @@
+<div class="category-page">
+
+    <div class="header">
+    
+    <h2>All Categories</h2>
+    
+    <button (click)="openCategoryModal()"  class="add-btn">
+    + Add Category
+    </button>
+    
+    </div>
+    
+    
+    <div class="category-box">
+    
+    <h3>Category Sources</h3>
+    
+    <div class="category-list">
+    
+    <div class="category-card" *ngFor="let ele of categories">
+    
+  <!-- Action buttons  ✏️   🗑-->
+  <div class="actions">
+
+    <span class="edit" (click)="editCategory(ele)">
+       <img style="color:#6c2bd9 ; width: 50px;" src="../../../assets/images/edit-field.svg" >
+    </span>
+
+    <span class="delete" (click)="deleteCategory(ele)">
+        <img style="color:#6c2bd9 ; width: 50px;" src="../../../assets/images/delete-icon-new.svg" >
+     
+    </span>
+
+  </div>
+
+
+    <div class="icon">
+     {{ele.icon || '💰'}}
+    </div>
+    
+    <div class="info">
+    <p class="name">{{ele.name}}</p>
+    <span class="type">{{ele.type}}</span>
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>

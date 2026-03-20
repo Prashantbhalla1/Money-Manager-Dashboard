@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="49" viewBox="0 0 50 49">
+  <defs>
+    <filter id="Ellipse_1529" x="0" y="0" width="50" height="49" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_12182" data-name="Group 12182" transform="translate(18232.334 15318.604)">
+    <g id="Group_12181" data-name="Group 12181" transform="translate(-18223.334 -15309.604)">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Ellipse_1529)">
+        <ellipse id="Ellipse_1529-2" data-name="Ellipse 1529" cx="16" cy="15.5" rx="16" ry="15.5" transform="translate(9 9)" fill="#fff"/>
+      </g>
+      <g id="Group_12037" data-name="Group 12037" transform="translate(53 13.001)">
+        <g id="Group_12036" data-name="Group 12036" transform="translate(-41.496 -5.381)">
+          <path id="Path_9126" data-name="Path 9126" d="M-.174,3.893V.092H8.585l.086,15.744-8.846.017v-4.1" transform="translate(0.174 -0.092)" fill="none" stroke="#0f1f54" stroke-width="1"/>
+        </g>
+        <line id="Line_405" data-name="Line 405" x2="7.505" transform="translate(-44.498 2.449)" fill="none" stroke="#0f1f54" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_406" data-name="Line 406" x2="2.171" y2="2.252" transform="translate(-39.164 0.197)" fill="none" stroke="#0f1f54" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_407" data-name="Line 407" x1="2.171" y2="2.252" transform="translate(-39.164 2.449)" fill="none" stroke="#0f1f54" stroke-linecap="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

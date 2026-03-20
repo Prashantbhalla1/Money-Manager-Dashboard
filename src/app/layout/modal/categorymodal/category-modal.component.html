@@ -1,0 +1,81 @@
+<ng-container *ngIf="pageType=='add' || pageType=='edit'" >
+<div class="modal-header">
+<h2 class="col-12 mb-0" mat-dialog-title><span *ngIf="pageType=='add'" > Add</span> 
+  <span *ngIf="pageType=='edit'" > Edit</span> 
+  Category</h2>
+</div>
+
+<div class="modal-body align-left">
+<mat-dialog-content class="dialog-content">
+
+<!-- <div class="icon-row col-12">
+  <span class="icon">💰</span>
+  <a class="change-icon">Change icon</a>
+</div> -->
+
+<form [formGroup]="categoryForm">
+
+  <div class="form-group col-md-6">
+  <label>Category Name</label>
+  <input matInput formControlName="name"
+  class="form-control blue-regular"
+  >
+</div>
+
+<div class="form-group col-md-6">
+  <label>Category Type</label>
+
+  <mat-select [disabled]="pageType=='edit'" class="form-control blue-regular" formControlName="type">
+    <mat-option value="Income">Income</mat-option>
+    <mat-option value="Expense">Expense</mat-option>
+  </mat-select>
+
+</div>
+
+</form>
+
+</mat-dialog-content>
+
+
+<mat-dialog-actions align="end" class="row col-12 mt-3 mb-3">
+
+<button mat-button (click)="close()">Cancel</button>
+
+<button mat-raised-button (click)="addCategory()"
+style="background-color: #6c2bd9;"
+color="primary"
+>
+<span *ngIf="pageType=='add'" > Add</span> 
+  <span *ngIf="pageType=='edit'" > Edit</span>  Category
+</button>
+
+</mat-dialog-actions>
+</div>
+</ng-container>
+
+<ng-container *ngIf="pageType=='delete'" >
+
+  <div class="modal-header">
+    <h2 class="col-12 mb-0" mat-dialog-title>Delete Category</h2>
+    </div>
+
+    <div class="modal-body align-left">
+      <mat-dialog-content class="dialog-content">
+<p class="Col-12 pl-3" > All the related {{data.data.type}} of {{data.data.name}} category will be deleted, Are you sure ? </p>
+<mat-dialog-actions align="end" class="row col-12 mt-3 mb-3">
+
+  <button mat-button (click)="close()">No</button>
+  
+  <button mat-raised-button (click)="delete()"
+  style="background-color: #6c2bd9;"
+  color="primary"
+  >
+ Yes
+  </button>
+  
+  </mat-dialog-actions>
+        </mat-dialog-content>
+        </div>
+
+
+</ng-container>

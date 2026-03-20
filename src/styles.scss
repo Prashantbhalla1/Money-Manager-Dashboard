@@ -1,0 +1,329 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~ngx-toastr/toastr.css";
+@import "~ng-pick-datetime/assets/style/picker.min.css";
+@import "./styles/variables.scss";
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  background-color: #{$bodyColor} !important;
+}
+
+.jumbotron {
+  min-height: calc(100vh - 70px);
+  background-color: #fff;
+  margin-bottom: 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.primary{
+  color: #6c2bd9!important;
+}
+.mat-dialog-container {
+  padding: 0px !important;
+}
+.hover:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mainContent {
+  padding: 0.4rem 1rem !important;
+  margin: 10px 0px 10px 10px;
+  background-color: #{$whiteColor} !important;
+}
+
+.mainContent-tile {
+  padding: 0rem 1rem !important;
+  margin: 10px 0px 10px 10px;
+}
+
+.mainContent-map {
+  padding: 0.4rem 1rem !important;
+  margin: 10px 0px 10px 10px;
+  background-color: #{$bodyColor} !important;
+}
+
+.btn-main {
+  color: #{$whiteColor} !important;
+  background-color: #{$maincolor} !important;
+  border-color: #{$maincolor} !important;
+}
+
+.disabled-btn-main {
+  color: #{$whiteColor} !important;
+  background-color: $disabledColor !important;
+  border-color: $disabledColor !important;
+}
+
+.btn-main-white {
+  color: #{$maincolor} !important;
+  background-color: #{$whiteColor} !important;
+  border-color: #{$maincolor} !important;
+  font-weight: bold !important;
+}
+
+.btn-main-white-nb {
+  color: #{$maincolor} !important;
+  background-color: #{$whiteColor} !important;
+  border-color: #{$maincolor} !important;
+}
+
+.btn-cancel {
+  color: #{$whiteColor} !important;
+  //background-color: #{$cancelColor}  !important;
+  border-color: #{$cancelColor} !important;
+}
+
+.btnSmall {
+  width: 100px;
+}
+
+.btnBig {
+  width: 150px;
+}
+
+.btn-main-outline,
+.btn-main-outline:hover {
+  color: #{$maincolor} !important;
+  border-color: #{$maincolor} !important;
+  background-color: #{$whiteColor} !important;
+}
+
+.mat-tab-label-content {
+  color: #{$maincolor} !important;
+  font-family: #{$fontMedium};
+  font-weight: bold !important;
+}
+
+.mat-tab-label-active {
+  opacity: 1 !important;
+}
+
+.mat-ink-bar {
+  background-color: #{$maincolor} !important;
+}
+
+.anchor-text {
+  color: #{$maincolor} !important;
+}
+
+form label {
+  text-transform: uppercase;
+}
+
+.close:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.mat-radio-label-content,
+.mat-checkbox-label {
+  font-size: 14px !important;
+  font-family: #{$fontNormal} !important;
+  color: #495057;
+}
+
+.btn-link {
+  color: #0f1f54 !important;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: 0.05em 0.75em 0 0.75em !important;
+}
+
+mat-form-field.mat-form-field.mat-form-field-appearance-outline>div.mat-form-field-wrapper>div.mat-form-field-flex>div.mat-form-field-infix {
+  padding: 0.4em 0px;
+}
+
+mat-form-field.mat-form-field.mat-form-field-appearance-outline>div.mat-form-field-wrapper>div.mat-form-field-flex>div.mat-form-field-infix>span.mat-form-field-label-wrapper {
+  top: -1.5em;
+}
+
+.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+  transform: translateY(-1.1em) scale(0.75);
+  width: 133.33333%;
+}
+
+.mat-form-field-flex>.mat-form-field-infix {
+  //padding: 0.2em 0px !important;
+  padding-bottom: 6px;
+}
+
+.mat-form-field-infix {
+  border-top: 0.3375em solid transparent !important;
+}
+
+.mat-form-field {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  min-width: 8vw;
+  line-height: 1.525 !important;
+}
+
+.mat-form-field-infix {
+  border-top: 0em solid transparent !important;
+}
+
+.mat-option:hover {
+  font-size: inherit;
+  background-color: #f3f7fa !important;
+  color: #202758 !important;
+  // background-color: #6d547c !important;
+  // color: #FFF !important;
+}
+
+::ng-deep .mat-select-panel {
+  max-height: 80vh !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-label {
+  margin-top: -15px;
+}
+
+::ng-deep label.ng-star-inserted {
+  transform: translateY(-0.59375em) scale(0.75) !important;
+}
+
+.mat-form-field-appearance-fill .mat-select-arrow-wrapper {
+  transform: translateY(0%) !important;
+}
+
+.mat-form-field-underline {
+  display: none !important;
+}
+
+.mat-form-field-flex {
+  height: calc(1.5em + 0.75rem + 2px) !important;
+  border: 1px solid #ced4da;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: white !important;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 0em !important;
+}
+
+.ng-invalid.mat-form-field-invalid {
+  border: 1px solid #dc3545 !important;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 0em !important;
+}
+
+.mat-select-panel .mat-optgroup-label,
+.mat-select-panel .mat-option :hover {
+  font-variant: normal !important;
+  font-size: inherit !important;
+  //color: #ffffff !important; //commented for css issue in add team in sanitization module
+}
+
+.mat-slide-toggle-content {
+  font-family: OpenSans !important;
+}
+
+.image-icon img {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+  // border: solid;
+  // border-color: green;
+}
+
+.bgInitial {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+  background: #6d547c !important;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  color: white;
+}
+
+.remove-border-bottom .mat-tab-header {
+  border-bottom: none;
+}
+
+.fa-calender-icons {
+  color: #0f1f54 !important;
+}
+
+input {
+  font-size: 1rem !important;
+}
+
+//removed arrow from all input box
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+//all select box border curved uniform
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  border-radius: 4px 4px 4px 4px !important;
+}
+
+.backMain {
+  width: 30px;
+}
+
+.ind-select-panel .mat-option {
+  height: 2.5em !important;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.font-label {
+  font-weight: bolder;
+  font-family: OpenSans-SemiBold;
+  font-variant: normal;
+  font-weight: bold;
+}
+
+.semi-heading {
+  //For stepper in popup
+  font-family: #{$fontMedium};
+  font-size: 12px;
+  color: $primarycolor;
+  font-style: italic;
+}
+
+.owl-dt-calendar-table .owl-dt-calendar-cell-selected {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: #0f1f54 !important;
+}
+.align-left{
+  text-align: left!important;
+}
+.owl-dt-container {
+  border-radius: 10px;
+}
+
+.leaflet-container {
+  background: #ffffff !important;
+  outline: 0 !important;
+}
+
+// .modal-card {
+//   padding: 33px;
+// }
+.sp-modal .modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 2px solid #0f1f54;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}

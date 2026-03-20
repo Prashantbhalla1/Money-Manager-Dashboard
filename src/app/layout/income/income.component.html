@@ -1,0 +1,61 @@
+<div class="income-page">
+
+    <div class="header">
+    
+    <h2>Income Overview</h2>
+    
+    <button (click)="openAddIncome()" class="add-btn">
+    + Add Income
+    </button>
+    
+    </div>
+    
+    
+    <div class="chart-card">
+    
+    <canvas id="incomeChart"></canvas>
+    
+    </div>
+    
+    
+    <div class="income-list">
+    
+    <h3>Income Sources</h3>
+    
+    <div class="income-item" *ngFor="let income of incomes">
+
+        <!-- Hover Actions -->
+        <div class="actions">
+      
+          <!-- <span class="edit" (click)="editIncome(income)">
+            <img style="color:#6c2bd9 ; width: 50px;" src="../../../assets/images/edit-field.svg">
+          </span> -->
+      
+          <span class="delete" (click)="deleteIncome(income)">
+            <img style="color:#6c2bd9 ; width: 50px;" src="../../../assets/images/delete-icon-new.svg">
+          </span>
+      
+        </div>
+      
+        <div class="left">
+      
+          <div class="icon">💰</div>
+      
+          <div>
+            <p>{{income.name}}</p>
+            <span>{{income.date}}</span>
+          </div>
+      
+        </div>
+      
+        <div class="amount">
+          <span class="amount income-badge">
+            + ₹{{income.amount | number}} <span class="arrow">↗</span>
+          </span>
+        </div>
+      
+      </div>
+    
+    </div>
+    
+    </div>

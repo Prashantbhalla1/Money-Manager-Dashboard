@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <filter id="Ellipse_1289" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13154" data-name="Group 13154" transform="translate(9 9)">
+    <g id="Component_13_85" data-name="Component 13 – 85" transform="translate(0)">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Ellipse_1289)">
+        <ellipse id="Ellipse_1289-2" data-name="Ellipse 1289" cx="22" cy="22" rx="22" ry="22" transform="translate(9 9)" fill="#0f1f54"/>
+      </g>
+    </g>
+    <g id="Group_13153" data-name="Group 13153" transform="translate(10 9.294)">
+      <g id="coffee_black_24dp" transform="translate(0 1.411)">
+        <g id="Group_13151" data-name="Group 13151">
+          <path id="Path_13042" data-name="Path 13042" d="M24,0H0V24H24Z" fill="none"/>
+        </g>
+        <g id="Group_13152" data-name="Group 13152" transform="translate(8.973 11.767)">
+          <path id="Path_13043" data-name="Path 13043" d="M13.049,3h-7.8A1.252,1.252,0,0,0,4,4.248V7.811A4.487,4.487,0,0,0,8.231,12.36a4.373,4.373,0,0,0,4.506-4.368V7.368h.312a2.184,2.184,0,1,0,0-4.368Zm-1.56,1.248V6.12H5.248V4.248Zm1.56,1.872h-.312V4.248h.312a.936.936,0,1,1,0,1.872ZM4,12.984h9.985v1.248H4Z" transform="translate(-4 -3)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="auto_awesome_black_24dp" transform="translate(1.794)">
+        <path id="Path_13044" data-name="Path 13044" d="M14.411,0H0V14.411H14.411Z" fill="none"/>
+        <path id="Path_13045" data-name="Path 13045" d="M3.257,5.513,2.551,3.962,1,3.257l1.551-.705L3.257,1l.705,1.551,1.551.705-1.551.705ZM7.488,5.8l1.41-3.1,1.41,3.1,3.1,1.41-3.1,1.41-1.41,3.1-1.41-3.1-3.1-1.41ZM3.257,8.9l.705,1.551,1.551.705-1.551.705-.705,1.551L2.551,11.86,1,11.155l1.551-.705Z" transform="translate(0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

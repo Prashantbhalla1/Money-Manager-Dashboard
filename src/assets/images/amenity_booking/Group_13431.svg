@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340.535" height="162.468" viewBox="0 0 340.535 162.468">
+  <defs>
+    <filter id="Rectangle_4097">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4088" x="177.535" y="4" width="163" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4089" x="177.535" y="41" width="163" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4094" x="177.535" y="79" width="163" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13431" data-name="Group 13431" transform="translate(-212.428 -24.912)">
+    <g id="Group_9837" data-name="Group 9837" transform="translate(8350.105 21736.498)">
+      <g id="Group_13330" data-name="Group 13330" transform="translate(-8686.143 -22066.586)">
+        <g data-type="innerShadowGroup">
+          <g transform="matrix(1, 0, 0, 1, 548.47, 355)" filter="url(#Rectangle_4097)">
+            <rect id="Rectangle_4097-2" data-name="Rectangle 4097" width="159" height="162" rx="6" transform="translate(179.53)" fill="#fff"/>
+          </g>
+          <g id="Rectangle_4097-3" data-name="Rectangle 4097" transform="translate(728 355)" fill="none" stroke="#707070" stroke-width="0.4">
+            <rect width="159" height="162" rx="6" stroke="none"/>
+            <rect x="0.2" y="0.2" width="158.6" height="161.6" rx="5.8" fill="none"/>
+          </g>
+        </g>
+        <g id="Group_13229" data-name="Group 13229" transform="translate(5 7)">
+          <g transform="matrix(1, 0, 0, 1, 543.47, 348)" filter="url(#Rectangle_4088)">
+            <g id="Rectangle_4088-2" data-name="Rectangle 4088" transform="translate(186.53 10)" fill="none" stroke="#707070" stroke-width="0.4">
+              <rect width="145" height="32" stroke="none"/>
+              <rect x="0.2" y="0.2" width="144.6" height="31.6" fill="none"/>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 543.47, 348)" filter="url(#Rectangle_4089)">
+            <g id="Rectangle_4089-2" data-name="Rectangle 4089" transform="translate(186.53 47)" fill="none" stroke="#707070" stroke-width="0.4">
+              <rect width="145" height="32" stroke="none"/>
+              <rect x="0.2" y="0.2" width="144.6" height="31.6" fill="none"/>
+            </g>
+          </g>
+          <text id="Excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia_deserunt_mollit_anim." data-name="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim." transform="translate(736 371)" fill="#4d4d4d" font-size="4" font-family="OpenSans, Open Sans"><tspan x="0" y="4">Excepteur sint occaecat cupidatat non proident, sunt in </tspan><tspan x="0" y="10">culpa qui officia deserunt mollit anim.</tspan></text>
+          <rect id="Rectangle_4090" data-name="Rectangle 4090" width="23" height="23" transform="translate(847 361)" fill="#d6d6d6"/>
+          <text id="Excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia_deserunt_mollit_anim.-2" data-name="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim." transform="translate(736 408)" fill="#4d4d4d" font-size="4" font-family="OpenSans, Open Sans"><tspan x="0" y="4">Excepteur sint occaecat cupidatat non proident, sunt in </tspan><tspan x="0" y="10">culpa qui officia deserunt mollit anim.</tspan></text>
+          <rect id="Rectangle_4091" data-name="Rectangle 4091" width="23" height="23" transform="translate(847 399)" fill="#d6d6d6"/>
+          <g transform="matrix(1, 0, 0, 1, 543.47, 348)" filter="url(#Rectangle_4094)">
+            <g id="Rectangle_4094-2" data-name="Rectangle 4094" transform="translate(186.53 85)" fill="none" stroke="#707070" stroke-width="0.4">
+              <rect width="145" height="32" stroke="none"/>
+              <rect x="0.2" y="0.2" width="144.6" height="31.6" fill="none"/>
+            </g>
+          </g>
+          <text id="Excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia_deserunt_mollit_anim.-3" data-name="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim." transform="translate(736 446)" fill="#4d4d4d" font-size="4" font-family="OpenSans, Open Sans"><tspan x="0" y="4">Excepteur sint occaecat cupidatat non proident, sunt in </tspan><tspan x="0" y="10">culpa qui officia deserunt mollit anim.</tspan></text>
+          <rect id="Rectangle_4095" data-name="Rectangle 4095" width="23" height="23" transform="translate(847 437)" fill="#d6d6d6"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_13219" data-name="Group 13219" transform="translate(-3.181 -137)">
+      <g id="Group_12635" data-name="Group 12635" transform="translate(191.609 134.496)">
+        <g id="Group_13068" data-name="Group 13068" transform="translate(127.835 6.462) rotate(90)">
+          <g id="Rectangle_4047" data-name="Rectangle 4047" transform="translate(125.166 79.671)" fill="#094d8f" stroke="#707070" stroke-width="1" opacity="0">
+            <rect width="58.171" height="24.164" stroke="none"/>
+            <rect x="0.5" y="0.5" width="57.171" height="23.164" fill="none"/>
+          </g>
+          <g id="Group_13067" data-name="Group 13067" transform="translate(-0.126 103.835) rotate(-90)">
+            <g id="Rectangle_3626" data-name="Rectangle 3626" transform="translate(0 23.779)" fill="none" stroke="#707070" stroke-width="0.5">
+              <rect width="103.814" height="159.685" stroke="none"/>
+              <rect x="0.25" y="0.25" width="103.314" height="159.185" fill="none"/>
+            </g>
+            <g id="Group_11512" data-name="Group 11512" transform="translate(24.423 52.872) rotate(90)">
+              <g id="Group_11505" data-name="Group 11505" transform="translate(0 0)">
+                <path id="Exclusion_5" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+              </g>
+              <path id="Union_66" data-name="Union 66" d="M1.763.289A2.636,2.636,0,0,0,.62.89a.867.867,0,0,0-.3.622L0,7.965v5.641l.168,2.621a3.945,3.945,0,0,0,.3,1.541,1.964,1.964,0,0,0,.433.607,1.882,1.882,0,0,0,.5.283h0a8.21,8.21,0,0,0,2.863.375,13.107,13.107,0,0,0,2.073-.188c.574-.093.966-.187.969-.187a1.72,1.72,0,0,0,.449-.165,1.594,1.594,0,0,0,.374-.271,1.37,1.37,0,0,0,.307-.454,18.988,18.988,0,0,0,.56-3.9c.014-.407.009-.588,0-.781H9v-.005c0-.137-.007-.279,0-.512C9,12,8.666,1.84,8.662,1.739A.624.624,0,0,0,8.68,1.52a.914.914,0,0,0-.209-.5A2.359,2.359,0,0,0,7.28.329,10.677,10.677,0,0,0,4.328,0,9.471,9.471,0,0,0,1.763.289Zm-.1,2.472A2.726,2.726,0,0,1,1.6,2.2a.484.484,0,0,1,.12-.376,6.441,6.441,0,0,1,2.969-.408,11.106,11.106,0,0,1,1.717.1,2.238,2.238,0,0,1,.9.3.391.391,0,0,1,.118.364,2.241,2.241,0,0,1-.114.543,5.907,5.907,0,0,1-.285.708H7.008a15.494,15.494,0,0,0-1.843-.1c-.236-.006-.481-.01-.727-.01-.222,0-.443,0-.656.012a12.609,12.609,0,0,0-1.932.133A6.8,6.8,0,0,1,1.658,2.761Zm-.877,5.2L.956,3.4c0-.033.092-.791.247-.791h.011c.091.019.186.61.161,1,0,.056-.007.1-.012.141A16.574,16.574,0,0,0,.946,7.828c0,.045,0,.091,0,.136ZM7.593,3.589a1.782,1.782,0,0,1,.063-.561c.046-.17.106-.287.152-.3h.01c.155,0,.243.741.248.772L8.24,7.964H8.065l-.024-.475a21.779,21.779,0,0,0-.3-3.581.5.5,0,0,0-.013-.05l0-.008a.577.577,0,0,0-.089-.2A.263.263,0,0,0,7.6,3.61C7.595,3.6,7.594,3.6,7.593,3.589Zm.49,4.941a.245.245,0,0,1,0-.027h.2v3.252c-.011.129-.111,1.261-.288,1.261H7.991a3.668,3.668,0,0,1-.106-1.653c.011-.2.027-.454.045-.723a16.316,16.316,0,0,0,.124-1.72Zm-7.3,3.333V8.613h.18c.024.505.071.992.127,1.428.037.511.074,1.053.094,1.431a10.481,10.481,0,0,1,.005,1.173c-.02.3-.06.472-.111.481H1.069C.892,13.126.792,11.993.782,11.864Zm6.512.173a10.416,10.416,0,0,1,.256,1.033,4.288,4.288,0,0,1,.089.789.708.708,0,0,1-.144.524,2.084,2.084,0,0,1-.978.428,9.284,9.284,0,0,1-1.857.147c-1.7,0-2.87-.209-3.209-.574a.826.826,0,0,1-.129-.531,4.94,4.94,0,0,1,.069-.788c.075-.485.188-.937.21-1.023,0,0,0,0,0,0h0l.076.016a6.568,6.568,0,0,0,1.916.269c.273.02.557.033.842.033.318,0,.636-.016.939-.041a8.437,8.437,0,0,0,1.889-.272Z" transform="translate(3.717 2.54)" fill="#c90713"/>
+              <path id="Union_80" data-name="Union 80" d="M1.763.289A2.636,2.636,0,0,0,.62.89a.867.867,0,0,0-.3.622L0,7.965v5.641l.168,2.621a3.945,3.945,0,0,0,.3,1.541,1.964,1.964,0,0,0,.433.607,1.882,1.882,0,0,0,.5.283h0a8.21,8.21,0,0,0,2.863.375,13.107,13.107,0,0,0,2.073-.188c.574-.093.966-.187.969-.187a1.72,1.72,0,0,0,.449-.165,1.594,1.594,0,0,0,.374-.271,1.37,1.37,0,0,0,.307-.454,18.988,18.988,0,0,0,.56-3.9c.014-.407.009-.588,0-.781H9v-.005c0-.137-.007-.279,0-.512C9,12,8.666,1.84,8.662,1.739A.624.624,0,0,0,8.68,1.52a.914.914,0,0,0-.209-.5A2.359,2.359,0,0,0,7.28.329,10.677,10.677,0,0,0,4.328,0,9.471,9.471,0,0,0,1.763.289Zm-.1,2.472A2.726,2.726,0,0,1,1.6,2.2a.484.484,0,0,1,.12-.376,6.441,6.441,0,0,1,2.969-.408,11.106,11.106,0,0,1,1.717.1,2.238,2.238,0,0,1,.9.3.391.391,0,0,1,.118.364,2.241,2.241,0,0,1-.114.543,5.907,5.907,0,0,1-.285.708H7.008a15.494,15.494,0,0,0-1.843-.1c-.236-.006-.481-.01-.727-.01-.222,0-.443,0-.656.012a12.609,12.609,0,0,0-1.932.133A6.8,6.8,0,0,1,1.658,2.761Zm-.877,5.2L.956,3.4c0-.033.092-.791.247-.791h.011c.091.019.186.61.161,1,0,.056-.007.1-.012.141A16.574,16.574,0,0,0,.946,7.828c0,.045,0,.091,0,.136ZM7.593,3.589a1.782,1.782,0,0,1,.063-.561c.046-.17.106-.287.152-.3h.01c.155,0,.243.741.248.772L8.24,7.964H8.065l-.024-.475a21.779,21.779,0,0,0-.3-3.581.5.5,0,0,0-.013-.05l0-.008a.577.577,0,0,0-.089-.2A.263.263,0,0,0,7.6,3.61C7.595,3.6,7.594,3.6,7.593,3.589Zm.49,4.941a.245.245,0,0,1,0-.027h.2v3.252c-.011.129-.111,1.261-.288,1.261H7.991a3.668,3.668,0,0,1-.106-1.653c.011-.2.027-.454.045-.723a16.316,16.316,0,0,0,.124-1.72Zm-7.3,3.333V8.613h.18c.024.505.071.992.127,1.428.037.511.074,1.053.094,1.431a10.481,10.481,0,0,1,.005,1.173c-.02.3-.06.472-.111.481H1.069C.892,13.126.792,11.993.782,11.864Zm6.512.173a10.416,10.416,0,0,1,.256,1.033,4.288,4.288,0,0,1,.089.789.708.708,0,0,1-.144.524,2.084,2.084,0,0,1-.978.428,9.284,9.284,0,0,1-1.857.147c-1.7,0-2.87-.209-3.209-.574a.826.826,0,0,1-.129-.531,4.94,4.94,0,0,1,.069-.788c.075-.485.188-.937.21-1.023,0,0,0,0,0,0h0l.076.016a6.568,6.568,0,0,0,1.916.269c.273.02.557.033.842.033.318,0,.636-.016.939-.041a8.437,8.437,0,0,0,1.889-.272Z" transform="translate(22.717 2.54)" fill="#c90713"/>
+              <path id="Union_81" data-name="Union 81" d="M1.763.289A2.636,2.636,0,0,0,.62.89a.867.867,0,0,0-.3.622L0,7.965v5.641l.168,2.621a3.945,3.945,0,0,0,.3,1.541,1.964,1.964,0,0,0,.433.607,1.882,1.882,0,0,0,.5.283h0a8.21,8.21,0,0,0,2.863.375,13.107,13.107,0,0,0,2.073-.188c.574-.093.966-.187.969-.187a1.72,1.72,0,0,0,.449-.165,1.594,1.594,0,0,0,.374-.271,1.37,1.37,0,0,0,.307-.454,18.988,18.988,0,0,0,.56-3.9c.014-.407.009-.588,0-.781H9v-.005c0-.137-.007-.279,0-.512C9,12,8.666,1.84,8.662,1.739A.624.624,0,0,0,8.68,1.52a.914.914,0,0,0-.209-.5A2.359,2.359,0,0,0,7.28.329,10.677,10.677,0,0,0,4.328,0,9.471,9.471,0,0,0,1.763.289Zm-.1,2.472A2.726,2.726,0,0,1,1.6,2.2a.484.484,0,0,1,.12-.376,6.441,6.441,0,0,1,2.969-.408,11.106,11.106,0,0,1,1.717.1,2.238,2.238,0,0,1,.9.3.391.391,0,0,1,.118.364,2.241,2.241,0,0,1-.114.543,5.907,5.907,0,0,1-.285.708H7.008a15.494,15.494,0,0,0-1.843-.1c-.236-.006-.481-.01-.727-.01-.222,0-.443,0-.656.012a12.609,12.609,0,0,0-1.932.133A6.8,6.8,0,0,1,1.658,2.761Zm-.877,5.2L.956,3.4c0-.033.092-.791.247-.791h.011c.091.019.186.61.161,1,0,.056-.007.1-.012.141A16.574,16.574,0,0,0,.946,7.828c0,.045,0,.091,0,.136ZM7.593,3.589a1.782,1.782,0,0,1,.063-.561c.046-.17.106-.287.152-.3h.01c.155,0,.243.741.248.772L8.24,7.964H8.065l-.024-.475a21.779,21.779,0,0,0-.3-3.581.5.5,0,0,0-.013-.05l0-.008a.577.577,0,0,0-.089-.2A.263.263,0,0,0,7.6,3.61C7.595,3.6,7.594,3.6,7.593,3.589Zm.49,4.941a.245.245,0,0,1,0-.027h.2v3.252c-.011.129-.111,1.261-.288,1.261H7.991a3.668,3.668,0,0,1-.106-1.653c.011-.2.027-.454.045-.723a16.316,16.316,0,0,0,.124-1.72Zm-7.3,3.333V8.613h.18c.024.505.071.992.127,1.428.037.511.074,1.053.094,1.431a10.481,10.481,0,0,1,.005,1.173c-.02.3-.06.472-.111.481H1.069C.892,13.126.792,11.993.782,11.864Zm6.512.173a10.416,10.416,0,0,1,.256,1.033,4.288,4.288,0,0,1,.089.789.708.708,0,0,1-.144.524,2.084,2.084,0,0,1-.978.428,9.284,9.284,0,0,1-1.857.147c-1.7,0-2.87-.209-3.209-.574a.826.826,0,0,1-.129-.531,4.94,4.94,0,0,1,.069-.788c.075-.485.188-.937.21-1.023,0,0,0,0,0,0h0l.076.016a6.568,6.568,0,0,0,1.916.269c.273.02.557.033.842.033.318,0,.636-.016.939-.041a8.437,8.437,0,0,0,1.889-.272Z" transform="translate(75.717 2.54)" fill="#c90713"/>
+              <path id="Union_82" data-name="Union 82" d="M1.763.289A2.636,2.636,0,0,0,.62.89a.867.867,0,0,0-.3.622L0,7.965v5.641l.168,2.621a3.945,3.945,0,0,0,.3,1.541,1.964,1.964,0,0,0,.433.607,1.882,1.882,0,0,0,.5.283h0a8.21,8.21,0,0,0,2.863.375,13.107,13.107,0,0,0,2.073-.188c.574-.093.966-.187.969-.187a1.72,1.72,0,0,0,.449-.165,1.594,1.594,0,0,0,.374-.271,1.37,1.37,0,0,0,.307-.454,18.988,18.988,0,0,0,.56-3.9c.014-.407.009-.588,0-.781H9v-.005c0-.137-.007-.279,0-.512C9,12,8.666,1.84,8.662,1.739A.624.624,0,0,0,8.68,1.52a.914.914,0,0,0-.209-.5A2.359,2.359,0,0,0,7.28.329,10.677,10.677,0,0,0,4.328,0,9.471,9.471,0,0,0,1.763.289Zm-.1,2.472A2.726,2.726,0,0,1,1.6,2.2a.484.484,0,0,1,.12-.376,6.441,6.441,0,0,1,2.969-.408,11.106,11.106,0,0,1,1.717.1,2.238,2.238,0,0,1,.9.3.391.391,0,0,1,.118.364,2.241,2.241,0,0,1-.114.543,5.907,5.907,0,0,1-.285.708H7.008a15.494,15.494,0,0,0-1.843-.1c-.236-.006-.481-.01-.727-.01-.222,0-.443,0-.656.012a12.609,12.609,0,0,0-1.932.133A6.8,6.8,0,0,1,1.658,2.761Zm-.877,5.2L.956,3.4c0-.033.092-.791.247-.791h.011c.091.019.186.61.161,1,0,.056-.007.1-.012.141A16.574,16.574,0,0,0,.946,7.828c0,.045,0,.091,0,.136ZM7.593,3.589a1.782,1.782,0,0,1,.063-.561c.046-.17.106-.287.152-.3h.01c.155,0,.243.741.248.772L8.24,7.964H8.065l-.024-.475a21.779,21.779,0,0,0-.3-3.581.5.5,0,0,0-.013-.05l0-.008a.577.577,0,0,0-.089-.2A.263.263,0,0,0,7.6,3.61C7.595,3.6,7.594,3.6,7.593,3.589Zm.49,4.941a.245.245,0,0,1,0-.027h.2v3.252c-.011.129-.111,1.261-.288,1.261H7.991a3.668,3.668,0,0,1-.106-1.653c.011-.2.027-.454.045-.723a16.316,16.316,0,0,0,.124-1.72Zm-7.3,3.333V8.613h.18c.024.505.071.992.127,1.428.037.511.074,1.053.094,1.431a10.481,10.481,0,0,1,.005,1.173c-.02.3-.06.472-.111.481H1.069C.892,13.126.792,11.993.782,11.864Zm6.512.173a10.416,10.416,0,0,1,.256,1.033,4.288,4.288,0,0,1,.089.789.708.708,0,0,1-.144.524,2.084,2.084,0,0,1-.978.428,9.284,9.284,0,0,1-1.857.147c-1.7,0-2.87-.209-3.209-.574a.826.826,0,0,1-.129-.531,4.94,4.94,0,0,1,.069-.788c.075-.485.188-.937.21-1.023,0,0,0,0,0,0h0l.076.016a6.568,6.568,0,0,0,1.916.269c.273.02.557.033.842.033.318,0,.636-.016.939-.041a8.437,8.437,0,0,0,1.889-.272Z" transform="translate(80.219 -37.46)" fill="#707070"/>
+              <path id="Union_83" data-name="Union 83" d="M1.763.289A2.636,2.636,0,0,0,.62.89a.867.867,0,0,0-.3.622L0,7.965v5.641l.168,2.621a3.945,3.945,0,0,0,.3,1.541,1.964,1.964,0,0,0,.433.607,1.882,1.882,0,0,0,.5.283h0a8.21,8.21,0,0,0,2.863.375,13.107,13.107,0,0,0,2.073-.188c.574-.093.966-.187.969-.187a1.72,1.72,0,0,0,.449-.165,1.594,1.594,0,0,0,.374-.271,1.37,1.37,0,0,0,.307-.454,18.988,18.988,0,0,0,.56-3.9c.014-.407.009-.588,0-.781H9v-.005c0-.137-.007-.279,0-.512C9,12,8.666,1.84,8.662,1.739A.624.624,0,0,0,8.68,1.52a.914.914,0,0,0-.209-.5A2.359,2.359,0,0,0,7.28.329,10.677,10.677,0,0,0,4.328,0,9.471,9.471,0,0,0,1.763.289Zm-.1,2.472A2.726,2.726,0,0,1,1.6,2.2a.484.484,0,0,1,.12-.376,6.441,6.441,0,0,1,2.969-.408,11.106,11.106,0,0,1,1.717.1,2.238,2.238,0,0,1,.9.3.391.391,0,0,1,.118.364,2.241,2.241,0,0,1-.114.543,5.907,5.907,0,0,1-.285.708H7.008a15.494,15.494,0,0,0-1.843-.1c-.236-.006-.481-.01-.727-.01-.222,0-.443,0-.656.012a12.609,12.609,0,0,0-1.932.133A6.8,6.8,0,0,1,1.658,2.761Zm-.877,5.2L.956,3.4c0-.033.092-.791.247-.791h.011c.091.019.186.61.161,1,0,.056-.007.1-.012.141A16.574,16.574,0,0,0,.946,7.828c0,.045,0,.091,0,.136ZM7.593,3.589a1.782,1.782,0,0,1,.063-.561c.046-.17.106-.287.152-.3h.01c.155,0,.243.741.248.772L8.24,7.964H8.065l-.024-.475a21.779,21.779,0,0,0-.3-3.581.5.5,0,0,0-.013-.05l0-.008a.577.577,0,0,0-.089-.2A.263.263,0,0,0,7.6,3.61C7.595,3.6,7.594,3.6,7.593,3.589Zm.49,4.941a.245.245,0,0,1,0-.027h.2v3.252c-.011.129-.111,1.261-.288,1.261H7.991a3.668,3.668,0,0,1-.106-1.653c.011-.2.027-.454.045-.723a16.316,16.316,0,0,0,.124-1.72Zm-7.3,3.333V8.613h.18c.024.505.071.992.127,1.428.037.511.074,1.053.094,1.431a10.481,10.481,0,0,1,.005,1.173c-.02.3-.06.472-.111.481H1.069C.892,13.126.792,11.993.782,11.864Zm6.512.173a10.416,10.416,0,0,1,.256,1.033,4.288,4.288,0,0,1,.089.789.708.708,0,0,1-.144.524,2.084,2.084,0,0,1-.978.428,9.284,9.284,0,0,1-1.857.147c-1.7,0-2.87-.209-3.209-.574a.826.826,0,0,1-.129-.531,4.94,4.94,0,0,1,.069-.788c.075-.485.188-.937.21-1.023,0,0,0,0,0,0h0l.076.016a6.568,6.568,0,0,0,1.916.269c.273.02.557.033.842.033.318,0,.636-.016.939-.041a8.437,8.437,0,0,0,1.889-.272Z" transform="translate(43.717 -75.46)" fill="#c90713"/>
+              <path id="Union_84" data-name="Union 84" d="M1.763.289A2.636,2.636,0,0,0,.62.89a.867.867,0,0,0-.3.622L0,7.965v5.641l.168,2.621a3.945,3.945,0,0,0,.3,1.541,1.964,1.964,0,0,0,.433.607,1.882,1.882,0,0,0,.5.283h0a8.21,8.21,0,0,0,2.863.375,13.107,13.107,0,0,0,2.073-.188c.574-.093.966-.187.969-.187a1.72,1.72,0,0,0,.449-.165,1.594,1.594,0,0,0,.374-.271,1.37,1.37,0,0,0,.307-.454,18.988,18.988,0,0,0,.56-3.9c.014-.407.009-.588,0-.781H9v-.005c0-.137-.007-.279,0-.512C9,12,8.666,1.84,8.662,1.739A.624.624,0,0,0,8.68,1.52a.914.914,0,0,0-.209-.5A2.359,2.359,0,0,0,7.28.329,10.677,10.677,0,0,0,4.328,0,9.471,9.471,0,0,0,1.763.289Zm-.1,2.472A2.726,2.726,0,0,1,1.6,2.2a.484.484,0,0,1,.12-.376,6.441,6.441,0,0,1,2.969-.408,11.106,11.106,0,0,1,1.717.1,2.238,2.238,0,0,1,.9.3.391.391,0,0,1,.118.364,2.241,2.241,0,0,1-.114.543,5.907,5.907,0,0,1-.285.708H7.008a15.494,15.494,0,0,0-1.843-.1c-.236-.006-.481-.01-.727-.01-.222,0-.443,0-.656.012a12.609,12.609,0,0,0-1.932.133A6.8,6.8,0,0,1,1.658,2.761Zm-.877,5.2L.956,3.4c0-.033.092-.791.247-.791h.011c.091.019.186.61.161,1,0,.056-.007.1-.012.141A16.574,16.574,0,0,0,.946,7.828c0,.045,0,.091,0,.136ZM7.593,3.589a1.782,1.782,0,0,1,.063-.561c.046-.17.106-.287.152-.3h.01c.155,0,.243.741.248.772L8.24,7.964H8.065l-.024-.475a21.779,21.779,0,0,0-.3-3.581.5.5,0,0,0-.013-.05l0-.008a.577.577,0,0,0-.089-.2A.263.263,0,0,0,7.6,3.61C7.595,3.6,7.594,3.6,7.593,3.589Zm.49,4.941a.245.245,0,0,1,0-.027h.2v3.252c-.011.129-.111,1.261-.288,1.261H7.991a3.668,3.668,0,0,1-.106-1.653c.011-.2.027-.454.045-.723a16.316,16.316,0,0,0,.124-1.72Zm-7.3,3.333V8.613h.18c.024.505.071.992.127,1.428.037.511.074,1.053.094,1.431a10.481,10.481,0,0,1,.005,1.173c-.02.3-.06.472-.111.481H1.069C.892,13.126.792,11.993.782,11.864Zm6.512.173a10.416,10.416,0,0,1,.256,1.033,4.288,4.288,0,0,1,.089.789.708.708,0,0,1-.144.524,2.084,2.084,0,0,1-.978.428,9.284,9.284,0,0,1-1.857.147c-1.7,0-2.87-.209-3.209-.574a.826.826,0,0,1-.129-.531,4.94,4.94,0,0,1,.069-.788c.075-.485.188-.937.21-1.023,0,0,0,0,0,0h0l.076.016a6.568,6.568,0,0,0,1.916.269c.273.02.557.033.842.033.318,0,.636-.016.939-.041a8.437,8.437,0,0,0,1.889-.272Z" transform="translate(7.717 -75.46)" fill="#707070"/>
+              <path id="Union_85" data-name="Union 85" d="M1.763.289A2.636,2.636,0,0,0,.62.89a.867.867,0,0,0-.3.622L0,7.965v5.641l.168,2.621a3.945,3.945,0,0,0,.3,1.541,1.964,1.964,0,0,0,.433.607,1.882,1.882,0,0,0,.5.283h0a8.21,8.21,0,0,0,2.863.375,13.107,13.107,0,0,0,2.073-.188c.574-.093.966-.187.969-.187a1.72,1.72,0,0,0,.449-.165,1.594,1.594,0,0,0,.374-.271,1.37,1.37,0,0,0,.307-.454,18.988,18.988,0,0,0,.56-3.9c.014-.407.009-.588,0-.781H9v-.005c0-.137-.007-.279,0-.512C9,12,8.666,1.84,8.662,1.739A.624.624,0,0,0,8.68,1.52a.914.914,0,0,0-.209-.5A2.359,2.359,0,0,0,7.28.329,10.677,10.677,0,0,0,4.328,0,9.471,9.471,0,0,0,1.763.289Zm-.1,2.472A2.726,2.726,0,0,1,1.6,2.2a.484.484,0,0,1,.12-.376,6.441,6.441,0,0,1,2.969-.408,11.106,11.106,0,0,1,1.717.1,2.238,2.238,0,0,1,.9.3.391.391,0,0,1,.118.364,2.241,2.241,0,0,1-.114.543,5.907,5.907,0,0,1-.285.708H7.008a15.494,15.494,0,0,0-1.843-.1c-.236-.006-.481-.01-.727-.01-.222,0-.443,0-.656.012a12.609,12.609,0,0,0-1.932.133A6.8,6.8,0,0,1,1.658,2.761Zm-.877,5.2L.956,3.4c0-.033.092-.791.247-.791h.011c.091.019.186.61.161,1,0,.056-.007.1-.012.141A16.574,16.574,0,0,0,.946,7.828c0,.045,0,.091,0,.136ZM7.593,3.589a1.782,1.782,0,0,1,.063-.561c.046-.17.106-.287.152-.3h.01c.155,0,.243.741.248.772L8.24,7.964H8.065l-.024-.475a21.779,21.779,0,0,0-.3-3.581.5.5,0,0,0-.013-.05l0-.008a.577.577,0,0,0-.089-.2A.263.263,0,0,0,7.6,3.61C7.595,3.6,7.594,3.6,7.593,3.589Zm.49,4.941a.245.245,0,0,1,0-.027h.2v3.252c-.011.129-.111,1.261-.288,1.261H7.991a3.668,3.668,0,0,1-.106-1.653c.011-.2.027-.454.045-.723a16.316,16.316,0,0,0,.124-1.72Zm-7.3,3.333V8.613h.18c.024.505.071.992.127,1.428.037.511.074,1.053.094,1.431a10.481,10.481,0,0,1,.005,1.173c-.02.3-.06.472-.111.481H1.069C.892,13.126.792,11.993.782,11.864Zm6.512.173a10.416,10.416,0,0,1,.256,1.033,4.288,4.288,0,0,1,.089.789.708.708,0,0,1-.144.524,2.084,2.084,0,0,1-.978.428,9.284,9.284,0,0,1-1.857.147c-1.7,0-2.87-.209-3.209-.574a.826.826,0,0,1-.129-.531,4.94,4.94,0,0,1,.069-.788c.075-.485.188-.937.21-1.023,0,0,0,0,0,0h0l.076.016a6.568,6.568,0,0,0,1.916.269c.273.02.557.033.842.033.318,0,.636-.016.939-.041a8.437,8.437,0,0,0,1.889-.272Z" transform="translate(25.717 -75.46)" fill="#c90713"/>
+            </g>
+            <g id="Group_11512-2" data-name="Group 11512" transform="translate(24.423 70.934) rotate(90)">
+              <g id="Group_11505-2" data-name="Group 11505" transform="translate(0 0)">
+                <path id="Exclusion_5-2" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+              </g>
+            </g>
+            <g id="Group_11512-3" data-name="Group 11512" transform="translate(24.423 107.059) rotate(90)">
+              <g id="Group_11505-3" data-name="Group 11505" transform="translate(0 0)">
+                <path id="Exclusion_5-3" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+              </g>
+            </g>
+            <g id="Group_11512-4" data-name="Group 11512" transform="translate(24.423 125.121) rotate(90)">
+              <g id="Group_11505-4" data-name="Group 11505" transform="translate(0 0)">
+                <path id="Exclusion_5-4" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+              </g>
+            </g>
+            <g id="Group_11512-5" data-name="Group 11512" transform="translate(24.423 143.184) rotate(90)">
+              <g id="Group_11505-5" data-name="Group 11505" transform="translate(0 0)">
+                <path id="Exclusion_5-5" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+              </g>
+            </g>
+            <g id="Group_11512-6" data-name="Group 11512" transform="translate(24.423 161.246) rotate(90)">
+              <g id="Group_11505-6" data-name="Group 11505" transform="translate(0 0)">
+                <path id="Exclusion_5-6" data-name="Exclusion 5" d="M22.1,0h-.469V24.125H.439V0H0V24.421H22.1V0Z" transform="translate(0 0)" fill="#707070"/>
+              </g>
+            </g>
+            <g id="Group_11517" data-name="Group 11517" transform="translate(40.115 57.019)">
+              <g id="Group_11512-7" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-7" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-7" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+                </g>
+              </g>
+              <g id="Group_11512-8" data-name="Group 11512" transform="translate(24.421 18.062) rotate(90)">
+                <g id="Group_11505-8" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-8" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+                </g>
+              </g>
+              <g id="Group_11512-9" data-name="Group 11512" transform="translate(24.421 36.125) rotate(90)">
+                <g id="Group_11505-9" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-9" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+                </g>
+              </g>
+              <g id="Group_11512-10" data-name="Group 11512" transform="translate(24.421 54.187) rotate(90)">
+                <g id="Group_11505-10" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-10" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+                </g>
+              </g>
+              <g id="Group_11512-11" data-name="Group 11512" transform="translate(24.421 72.25) rotate(90)">
+                <g id="Group_11505-11" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-11" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+                </g>
+              </g>
+              <g id="Group_11512-12" data-name="Group 11512" transform="translate(24.421 90.312) rotate(90)">
+                <g id="Group_11505-12" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-12" data-name="Exclusion 5" d="M18.431,0H18.04V24.125H.366V0H0V24.421H18.431V0Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_11643" data-name="Group 11643" transform="translate(79.266 57.019)">
+              <g id="Group_11512-13" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-13" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-13" data-name="Exclusion 5" d="M18.431,24.421H18.04V.3H.366V24.421H0V0H18.431V24.421Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_11644" data-name="Group 11644" transform="translate(79.266 75.081)">
+              <g id="Group_11512-14" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-14" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-14" data-name="Exclusion 5" d="M18.431,24.421H18.04V.3H.366V24.421H0V0H18.431V24.421Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_11645" data-name="Group 11645" transform="translate(79.266 93.144)">
+              <g id="Group_11512-15" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-15" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-15" data-name="Exclusion 5" d="M18.431,24.421H18.04V.3H.366V24.421H0V0H18.431V24.421Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_11646" data-name="Group 11646" transform="translate(79.266 111.206)">
+              <g id="Group_11512-16" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-16" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-16" data-name="Exclusion 5" d="M18.431,24.421H18.04V.3H.366V24.421H0V0H18.431V24.421Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_11647" data-name="Group 11647" transform="translate(79.266 129.268)">
+              <g id="Group_11512-17" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-17" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-17" data-name="Exclusion 5" d="M18.431,24.421H18.04V.3H.366V24.421H0V0H18.431V24.421Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_11648" data-name="Group 11648" transform="translate(79.266 147.331)">
+              <g id="Group_11512-18" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-18" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-18" data-name="Exclusion 5" d="M18.431,24.421H18.04V.3H.366V24.421H0V0H18.431V24.421Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_11649" data-name="Group 11649" transform="translate(79.266 165.381)">
+              <g id="Group_11512-19" data-name="Group 11512" transform="translate(24.421 0) rotate(90)">
+                <g id="Group_11505-19" data-name="Group 11505" transform="translate(0 0)">
+                  <path id="Exclusion_5-19" data-name="Exclusion 5" d="M18.167,24.421h-.385V.3H.361V24.421H0V0H18.167V24.421Z" fill="#707070"/>
+                </g>
+              </g>
+            </g>
+            <text id="Drive_WAY" data-name="Drive WAY" transform="translate(32.428 97.549) rotate(-90)" fill="#707070" font-size="2" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.004em"><tspan x="0" y="0">DRIVE WAY</tspan></text>
+            <line id="Line_296" data-name="Line 296" y1="11.704" transform="translate(72.44 127.287)" fill="none" stroke="#707070" stroke-width="0.2"/>
+            <g id="Polygon_1" data-name="Polygon 1" transform="translate(71.47 125.49)" fill="none">
+              <path d="M.968,0l.968,1.935H0Z" stroke="none"/>
+              <path d="M 0.9676239490509033 9.5367431640625e-07 L 1.935243964195251 1.935261011123657 L 3.933906555175781e-06 1.935261011123657 L 0.9676239490509033 9.5367431640625e-07 Z" stroke="none" fill="#707070"/>
+            </g>
+            <g id="Group_11651" data-name="Group 11651" transform="translate(32.547 37.113)">
+              <text id="Drive_WAY-2" data-name="Drive WAY" transform="translate(15.021 1)" fill="#707070" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.004em"><tspan x="0" y="0">DRIVE WAY</tspan></text>
+              <line id="Line_297" data-name="Line 297" y1="11.704" transform="translate(47.92 2.442) rotate(90)" fill="none" stroke="#707070" stroke-width="0.2"/>
+              <g id="Polygon_2" data-name="Polygon 2" transform="translate(49.856 1.474) rotate(90)" fill="none">
+                <path d="M.968,0l.968,1.935H0Z" stroke="none"/>
+                <path d="M 0.9676308631896973 0.4472202062606812 L 0.3236123323440552 1.735243916511536 L 1.611649394035339 1.735243916511536 L 0.9676308631896973 0.4472202062606812 M 0.9676308631896973 3.933906555175781e-06 L 1.935260891914368 1.935243844985962 L 8.344650268554688e-07 1.935243844985962 L 0.9676308631896973 3.933906555175781e-06 Z" stroke="none" fill="#707070"/>
+              </g>
+              <path id="Path_9198" data-name="Path 9198" d="M31.841,11.473S-.027,11.435,0,11.473,0,0,0,0" transform="translate(12.441 2.442) rotate(90)" fill="none" stroke="#707070" stroke-width="0.2"/>
+              <g id="Polygon_3" data-name="Polygon 3" transform="translate(1.935 36.218) rotate(180)" fill="none">
+                <path d="M.968,0l.968,1.935H0Z" stroke="none"/>
+                <path d="M 0.9676239490509033 0.4472247362136841 L 0.3236124515533447 1.735260963439941 L 1.611635446548462 1.735260963439941 L 0.9676239490509033 0.4472247362136841 M 0.9676239490509033 9.5367431640625e-07 L 1.935243964195251 1.935261011123657 L 3.933906555175781e-06 1.935261011123657 L 0.9676239490509033 9.5367431640625e-07 Z" stroke="none" fill="#707070"/>
+              </g>
+            </g>
+            <text id="Drive_WAY-3" data-name="Drive WAY" transform="translate(71.806 161.985) rotate(-90)" fill="#707070" font-size="2" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.004em"><tspan x="0" y="0">DRIVE WAY</tspan></text>
+            <path id="Path_9199" data-name="Path 9199" d="M0,0V14.724H38.981V5.491" transform="translate(33.564 162.19)" fill="none" stroke="#707070" stroke-width="0.2"/>
+            <g id="Polygon_4" data-name="Polygon 4" transform="translate(32.666 160.325)" fill="none">
+              <path d="M.968,0l.968,1.935H0Z" stroke="none"/>
+              <path d="M 0.9676239490509033 9.5367431640625e-07 L 1.935243964195251 1.935261011123657 L 3.933906555175781e-06 1.935261011123657 L 0.9676239490509033 9.5367431640625e-07 Z" stroke="none" fill="#707070"/>
+            </g>
+            <g id="Group_11642" data-name="Group 11642" transform="translate(2.127 18.794)">
+              <g id="Group_11514" data-name="Group 11514" transform="translate(77.523 51.907)">
+                <text id="P61" transform="translate(0 1)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P61</tspan></text>
+                <text id="P62" transform="translate(0 18.899)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P62</tspan></text>
+                <text id="P63" transform="translate(0 37.693)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P63</tspan></text>
+                <text id="P64" transform="translate(0 55.592)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P64</tspan></text>
+                <text id="P65" transform="translate(0 74.386)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P65</tspan></text>
+                <text id="P66" transform="translate(0 90.495)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P66</tspan></text>
+                <text id="P67" transform="translate(0 109.288)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P67</tspan></text>
+              </g>
+              <g id="Group_11515" data-name="Group 11515" transform="translate(15.771 48.327)">
+                <text id="P48" transform="translate(0 1)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P48</tspan></text>
+                <text id="P49" transform="translate(0 19.794)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P49</tspan></text>
+                <text id="P50" transform="translate(0 35.903)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P50</tspan></text>
+                <text id="P51" transform="translate(0 54.697)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P51</tspan></text>
+                <text id="P52" transform="translate(0 72.596)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P52</tspan></text>
+                <text id="P53" transform="translate(0 91.39)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P53</tspan></text>
+                <text id="P54" transform="translate(0 112.868)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P54</tspan></text>
+              </g>
+              <g id="Group_11516" data-name="Group 11516" transform="translate(56.044 51.907)">
+                <text id="P60" transform="translate(0 1)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P60</tspan></text>
+                <text id="P59" transform="translate(0 18.899)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P59</tspan></text>
+                <text id="P58" transform="translate(0 37.693)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P58</tspan></text>
+                <text id="P57" transform="translate(0 55.592)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P57</tspan></text>
+                <text id="P56" transform="translate(0 74.386)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P56</tspan></text>
+                <text id="P55" transform="translate(0 90.495)" fill="#0f1f54" font-size="1" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">P55</tspan></text>
+              </g>
+            </g>
+            <text id="Exit" transform="translate(100.278 35.671) rotate(90)" fill="#707070" font-size="2" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.004em"><tspan x="0" y="0">EXIT</tspan></text>
+          </g>
+          <path id="Path_13073" data-name="Path 13073" d="M0,24.164Z" fill="#ec6a21" stroke="#707070" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

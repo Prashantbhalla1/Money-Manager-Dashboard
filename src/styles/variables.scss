@@ -1,0 +1,145 @@
+@function rem($value) {
+  @return unquote(($value/1px)/16+"rem");
+}
+
+$fontBold: "OpenSans-bold";
+$fontNormal: "OpenSans-Regular";
+// $fontNormal: "OpenSans"; //Changing it to OpenSans-Regular for all text
+$fontMedium: "OpenSans-SemiBold";
+/*$fontBold : 'HelveticaNeue-bold';
+  $fontNormal : 'HelveticaNeue';
+  $fontMedium : 'HelveticaNeue-medium';*/
+
+//jumpree-digital-variables start
+$primarycolor: #1f2551;
+$blueColor: #0b5b99;
+$lightblue: #1a659f;
+$lighterblue: #86bce3;
+$darkblue: #1a295c;
+$darkgreen: #1f2511;
+$lightgray: #cecece;
+$lightergray: #f6f6f6;
+$red: #fa0505;
+$gray: #838484;
+$darkgray: #495057;
+$orange: #f36c20;
+$mediumGray: #b1b1b1;
+$mediumBlue: #183183;
+// $disabledColor: #2b31ba4a;
+$disabledColor: #dddddd;
+
+//jumpree-digital-variables-end
+$header-profile: "#2d2d2d";
+$bodyColor: #f5f5f5;
+$maincolor: #0f1f54;
+$mattBlackDark: #a19aac;
+$mattRed: #fff;
+$mattoogleBar: #adadad;
+$matIconColor: #fff;
+$whiteColor: #fff;
+$cancelColor: #a19aac;
+$selectBoxBgColor: #6d547c;
+
+$easeTime: 0.25s;
+$margin-top: 56px;
+$colors: (
+  "mattBlackLight": $maincolor,
+  "mattBlackDark": $mattBlackDark,
+  "mattRed": $mattRed,
+  "matToogleBar": $mattoogleBar,
+);
+
+@each $colorName, $colorValue in $colors {
+  .bg-#{$colorName} {
+    background-color: #{$colorValue};
+  }
+  .text-#{$colorName} {
+    color: #{$colorValue};
+  }
+}
+
+@mixin fontsize($fontsize: 14px) {
+  font-size: $fontsize;
+}
+@mixin webkitScrollBarTrack(
+  $bgcolor: $lightgray,
+  $mgbottom: 150px,
+  $mgtop: 150px,
+  $border: 3px solid transparent,
+  $bgclip: content-box
+) {
+  background: $bgcolor;
+  margin-bottom: $mgbottom;
+  margin-top: $mgtop;
+  border: $border;
+  background-clip: $bgclip;
+}
+
+@mixin webkitScrollBarThumb(
+  $bgcolor: $lightgray,
+  $bradius: 5px,
+  $wbradius: 5px,
+  $mozbradius: 5px,
+  $msbradius: 5px,
+  $obradius: 5px,
+  $height: 30px
+) {
+  background: $bgcolor;
+  border-radius: $bradius;
+  -webkit-border-radius: $wbradius;
+  -moz-border-radius: $mozbradius;
+  -ms-border-radius: $msbradius;
+  -o-border-radius: $obradius;
+  height: $height;
+}
+
+@mixin widthHeight($width: 100%, $height: auto) {
+  width: $width;
+  height: $height;
+}
+@mixin widthMgBottom($width: 10%, $mgbottom: 10px) {
+  width: $width;
+  margin-bottom: $mgbottom;
+}
+
+@mixin font-size-weight($size: 12px, $weight: normal) {
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin font-size-family($size: 12px, $family: $fontNormal) {
+  font-size: $size;
+  font-family: $family;
+}
+@mixin responsiveCards {
+  flex-direction: column;
+  align-items: center !important;
+}
+@mixin tabCards {
+  margin-top: 10px;
+  width: 80% !important;
+}
+@mixin navigationIcon {
+  rotate: 90deg;
+  margin-top: 20px !important;
+}
+
+@mixin digitalDashboardCustomScroll() {
+  max-height: calc(100vh - 350px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@mixin digitalDashboardCustomScrollWidth($width: 5px) {
+  width: $width;
+}
+@mixin digitalDashboardWebkitScrollBarTrack() {
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 40%);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+@mixin digitalDashboardWebkitScrollBarThumb() {
+  border-radius: 10px;
+  background: $primarycolor;
+  -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 50%);
+}

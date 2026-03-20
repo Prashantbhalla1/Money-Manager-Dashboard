@@ -1,0 +1,92 @@
+.signup-page{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url('/assets/money-bg.jpg');
+    background-size:cover;
+    background-position:center;
+  }
+  
+  .signup-card{
+    width:420px;
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    text-align:center;
+  }
+  
+  .signup-card h2{
+    margin-bottom:5px;
+  }
+  
+  .subtitle{
+    color:#777;
+    font-size:14px;
+    margin-bottom:20px;
+  }
+  
+  .avatar{
+    width:60px;
+    height:60px;
+    margin:auto;
+    background:#f2e7ff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#7b2ff7;
+    font-size:30px;
+    margin-bottom:20px;
+  }
+  
+  .row{
+    display:flex;
+    gap:10px;
+  }
+  
+  .input-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+    width:100%;
+    text-align:left;
+  }
+  
+  .input-group label{
+    font-size:13px;
+    margin-bottom:5px;
+  }
+  
+  .input-group input{
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:5px;
+  }
+  
+  .signup-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#5c1fa3;
+    color:white;
+    border-radius:6px;
+    margin-top:10px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  
+  .signup-btn:hover{
+    background:#4b1688;
+  }
+  
+  .login-text{
+    margin-top:15px;
+    font-size:14px;
+  }
+  
+  .login-text span{
+    color:#5c1fa3;
+    cursor:pointer;
+  }

@@ -1,0 +1,50 @@
+<div class="signup-page">
+
+    <div class="signup-card">
+  
+      <h2>Create An Account</h2>
+      <p class="subtitle">
+        Start tracking your spendings by joining with us.
+      </p>
+  
+      <div class="avatar">
+        <span class="material-icons">person</span>
+      </div>
+  
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+  
+        <div class="row">
+  
+          <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" formControlName="name">
+          </div>
+  
+          <div class="input-group">
+            <label>Email Address</label>
+            <input type="email" formControlName="email">
+          </div>
+  
+          <div class="input-group">
+            <label>Password</label>
+            <input type="password" formControlName="password">
+          </div>
+        </div>
+  
+       
+  
+        <button class="signup-btn" type="submit">
+          SIGN UP
+        </button>
+  
+      </form>
+  
+      <p class="login-text">
+        Already have an account? <span class="hover" routerLink="/login"  >  Login</span>
+          <span class="hover"  routerLink="/"> or Home</span>
+        
+      </p>
+  
+    </div>
+  
+  </div>

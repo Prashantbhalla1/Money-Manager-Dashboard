@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <filter id="Ellipse_1289" x="0" y="0" width="54" height="54" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_39_8" data-name="Component 39 – 8" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Ellipse_1289)">
+      <circle id="Ellipse_1289-2" data-name="Ellipse 1289" cx="18" cy="18" r="18" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="tips_and_updates_black_24dp" transform="translate(7 8)">
+      <rect id="Rectangle_3824" data-name="Rectangle 3824" width="24" height="24" fill="none"/>
+      <path id="Path_9192" data-name="Path 9192" d="M7,20h4a2,2,0,0,1-4,0ZM5,19h8V17H5ZM16.5,9.5A7.536,7.536,0,0,1,12.73,16H5.27A7.5,7.5,0,1,1,16.5,9.5Zm4.87-2.13L20,8l1.37.63L22,10l.63-1.37L24,8l-1.37-.63L22,6ZM19,6l.94-2.06L22,3l-2.06-.94L19,0l-.94,2.06L16,3l2.06.94Z" fill="#0f1f54"/>
+    </g>
+  </g>
+</svg>

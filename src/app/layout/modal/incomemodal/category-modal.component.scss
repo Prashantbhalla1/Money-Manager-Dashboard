@@ -1,0 +1,23 @@
+.dialog-content{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    min-width:350px;
+    }
+    
+  
+    .icon-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+    }
+    
+    .icon{
+    font-size:28px;
+    }
+    
+    .change-icon{
+    color:#673ab7;
+    cursor:pointer;
+    }

@@ -1,0 +1,129 @@
+<div class="cards">
+
+    <div class="card">
+    <p>Total Balance</p>
+    <h2 style="color: #6c2bd9;" >₹ {{totalBalance}}</h2>
+    </div>
+    
+    <div class="card">
+    <p>Total Income</p>
+    <h2 style="color: #1e7e34;" >₹ {{dashboardData?.totalIncome}}</h2>
+    </div>
+    
+    <div class="card">
+    <p>Total Expense</p>
+    <h2 style="color: #c62828;" >₹ {{dashboardData?.totalExpanse}}</h2>
+    </div>
+    
+    </div>
+    
+    
+    <div class="grid">
+
+        <!-- Transactions -->
+        
+        <div class="transactions">
+        
+        <h3>Recent Transactions</h3>
+        
+        <div *ngFor="let income of dashboardData?.incomeList" class="txn">
+        <span>{{income.name}}</span>
+        <span class="amount income-badge">
+            + ₹{{income.amount | number}} <span class="arrow">↗</span>
+          </span>
+        </div>
+        
+
+      
+          
+          
+          <!-- Expense -->
+          
+       
+        <div *ngFor="let exp of dashboardData?.expanseList" class="txn">
+        <span>{{exp.name}}</span>
+        <span class="amount expense-badge">
+            - ₹{{exp.amount | number}} <span class="arrow">↘</span>
+          </span>
+
+        </div>
+        
+        </div>
+        
+        
+        <!-- Pie Chart -->
+        
+        <div class="chart-card">
+        
+        <h3>Financial Overview</h3>
+        
+        <canvas id="financeChart"></canvas>
+        
+        </div>
+        
+        </div>
+
+<div class="bottom-grid">
+
+    <!-- Recent Expenses -->
+  
+    <div class="box">
+  
+      <div class="section-header">
+        <h3>Recent Expenses</h3>
+        <a routerLink="/layout-dashboard/expense" >   <button class="more-btn">More →</button></a>
+      </div>
+  
+      <div *ngFor="let exp of dashboardData?.expanseList | slice:0:3" class="txn">
+  
+        <div class="txn-left">
+          <div class="icon">🏠</div>
+  
+          <div>
+            <p>{{exp.name}}</p>
+            <span>{{exp.date}}</span>
+          </div>
+  
+        </div>
+  
+        <span class="amount expense-badge">
+            - ₹{{exp.amount | number}} <span class="arrow">↘</span>
+          </span>
+
+  
+      </div>
+  
+    </div>
+  
+  
+    <!-- Recent Incomes -->
+  
+    <div class="box">
+  
+      <div class="section-header">
+        <h3>Recent Incomes</h3>
+       <a routerLink="/layout-dashboard/income" > <button class="more-btn">More →</button></a> 
+      </div>
+  
+      <div *ngFor="let income of dashboardData?.incomeList | slice:0:3" class="txn">
+  
+        <div class="txn-left">
+  
+          <div class="icon">💰</div>
+  
+          <div>
+            <p>{{income.name}}</p>
+            <span>{{income.date}}</span>
+          </div>
+  
+        </div>
+  
+        <span class="amount income-badge">
+            + ₹{{income.amount | number}} <span class="arrow">↗</span>
+          </span>
+  
+      </div>
+  
+    </div>
+  
+  </div>

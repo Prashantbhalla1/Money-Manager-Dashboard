@@ -1,0 +1,50 @@
+.sidebar{
+    width:250px;
+    background:white;
+    padding:20px;
+    box-shadow:2px 0 10px rgba(0,0,0,0.05);
+    }
+    
+    .logo{
+    font-weight:600;
+    font-size:18px;
+    margin-bottom:30px;
+    }
+    
+    .profile{
+    text-align:center;
+    margin-bottom:30px;
+    }
+    
+    .profile img{
+    width:60px;
+    border-radius:50%;
+    }
+    
+    .menu{
+    list-style:none;
+    padding:0;
+    }
+    
+    .menu li{
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:8px;
+    cursor:pointer;
+    }
+    
+    .menu li:hover{
+    background:#f0f0f0;
+    }
+    
+    .active{
+    background:#6c2bd9;
+    color:white;
+    }
+    .sidebar{
+        width:250px;
+        background:white;
+        padding:20px;
+        box-shadow:2px 0 10px rgba(0,0,0,0.05);
+        height: 100%;
+        }

@@ -1,0 +1,40 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "store": ["src/app/store.ts"],
+      "alertService": ["src/app/services/alert-service.service.ts"],
+      "commonService": ["src/app/services/common-service.service.ts"],
+      "apiService": ["src/app/services/apis.ts"],
+      "digitalService": ["src/app/services/digital-service.service.ts"],
+      "leafletService": ["src/app/services/onboard-leaflet.service.ts"],
+      "emsService": ["src/app/shared/services/ems.service.ts"],
+      "confirmationDialogService": [
+        "src/app/shared/confirmation-dialog/confirmation-dialog.service.ts"
+      ],
+      "loaderService": ["src/app/shared/modules/loader/loader.service.ts"],
+      "customLoaderService": [
+        "src/app/shared/modules/custom-loader/custom-loader.service.ts"
+      ],
+      "@angular/*": ["node_modules/@angular/*"]
+    },
+    "skipLibCheck": true,
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom"],
+    "types": ["googlemaps"]
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}

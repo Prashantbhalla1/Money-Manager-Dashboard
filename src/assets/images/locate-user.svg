@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <filter id="Ellipse_1289" x="0" y="0" width="54" height="54" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_11943" data-name="Group 11943" transform="translate(2495 -5170)">
+    <g transform="matrix(1, 0, 0, 1, -2495, 5170)" filter="url(#Ellipse_1289)">
+      <circle id="Ellipse_1289-2" data-name="Ellipse 1289" cx="18" cy="18" r="18" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="workspaces_black_24dp" transform="translate(-2480 5186.171)">
+      <g id="Group_11607" data-name="Group 11607">
+        <rect id="Rectangle_3825" data-name="Rectangle 3825" width="24" height="24" fill="none"/>
+      </g>
+      <g id="Group_11609" data-name="Group 11609" transform="translate(0 -4.92)">
+        <g id="Group_11608" data-name="Group 11608" transform="translate(1.987 10)">
+          <path id="Path_9193" data-name="Path 9193" d="M7.8,13c-6.447.05-5.789,5.789-5.789,5.789H13.584S14.242,12.95,7.8,13Z" transform="translate(-1.987 -2.869)" fill="#0f1f54" stroke="#fff" stroke-width="1"/>
+          <path id="Exclusion_1" data-name="Exclusion 1" d="M5.834,13.676h0a30.446,30.446,0,0,1-2.915-2.724C.508,8.366,0,6.732,0,5.816a5.832,5.832,0,0,1,11.663,0c0,.916-.506,2.551-2.916,5.135a30.459,30.459,0,0,1-2.915,2.724ZM5.665,2.844A1.818,1.818,0,1,0,7.456,4.662,1.807,1.807,0,0,0,5.665,2.844Z" transform="matrix(0.998, 0.07, -0.07, 0.998, 6.219, -7.42)" fill="#0f1f54"/>
+          <g id="Ellipse_1580" data-name="Ellipse 1580" transform="translate(3.013 3.92)" fill="#0f1f54" stroke="#fff" stroke-width="0.5">
+            <circle cx="3" cy="3" r="3" stroke="none"/>
+            <circle cx="3" cy="3" r="2.75" fill="none"/>
+          </g>
+          <path id="Path_9315" data-name="Path 9315" d="M6.159,13C1.528,13.036,2,17.159,2,17.159h8.318S10.79,12.964,6.159,13Z" transform="translate(6.697 -1.239)" fill="#0f1f54" stroke="#fff" stroke-width="1"/>
+          <g id="Ellipse_1581" data-name="Ellipse 1581" transform="translate(10.15 7.602)" fill="#0f1f54" stroke="#fff" stroke-width="0.5">
+            <circle cx="2.171" cy="2.171" r="2.171" stroke="none"/>
+            <circle cx="2.171" cy="2.171" r="1.921" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

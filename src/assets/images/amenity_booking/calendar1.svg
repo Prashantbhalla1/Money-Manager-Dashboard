@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <filter id="Ellipse_1290" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_12_20" data-name="Component 12 – 20" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Ellipse_1290)">
+      <circle id="Ellipse_1290-2" data-name="Ellipse 1290" cx="16" cy="16" r="16" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="calendar_4_" data-name="calendar (4)" transform="translate(7 7.719)">
+      <path id="Path_7836" data-name="Path 7836" d="M16.057,1.35H14.4V.54a.577.577,0,0,0-1.152,0v.81H5.184V.54a.577.577,0,0,0-1.152,0v.81H2.376A2.308,2.308,0,0,0,0,3.578V15.054a2.308,2.308,0,0,0,2.376,2.228h13.68a2.308,2.308,0,0,0,2.376-2.228V3.578A2.308,2.308,0,0,0,16.057,1.35Zm1.224,13.7A1.188,1.188,0,0,1,16.057,16.2H2.376a1.188,1.188,0,0,1-1.224-1.148V6.109a.175.175,0,0,1,.18-.169H17.1a.175.175,0,0,1,.18.169Z" transform="translate(0)" fill="#0f1f54"/>
+    </g>
+  </g>
+</svg>

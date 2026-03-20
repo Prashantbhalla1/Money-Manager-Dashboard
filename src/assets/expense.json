@@ -1,0 +1,59 @@
+{
+  "message": "Success",
+  "statusCode": 200,
+  "api": "/spacemanagement/expense/getAll",
+  "response": {
+    "content": [
+      {
+        "id": 1,
+        "expenseType": {
+          "id": 1,
+          "expenseCategory": "Updated Name",
+          "createdBy": 1,
+          "createdAt": 1601888315070,
+          "modifiedBy": 1,
+          "modifiedAt": 1601889751688,
+          "status": "ENABLED",
+          "parentExpenseId": null
+        },
+        "zoneId": 5,
+        "currency": "INR",
+        "amount": 500,
+        "accountNumber": "00097",
+        "notes": "Test Notes",
+        "dateOfExpense": 1,
+        "createdBy": 1,
+        "createdAt": 1601889768372,
+        "modifiedBy": 1,
+        "modifiedAt": 1601889784956,
+        "expenseStatus": "NOT_PAID",
+        "status": "ENABLED"
+      }
+    ],
+    "pageable": {
+      "sort": {
+        "sorted": false,
+        "unsorted": true,
+        "empty": true
+      },
+      "offset": 0,
+      "pageNumber": 0,
+      "pageSize": 20,
+      "paged": true,
+      "unpaged": false
+    },
+    "last": true,
+    "totalElements": 1,
+    "totalPages": 1,
+    "size": 20,
+    "number": 0,
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "numberOfElements": 1,
+    "first": true,
+    "empty": false
+  }
+}

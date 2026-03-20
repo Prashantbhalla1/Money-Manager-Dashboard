@@ -1,0 +1,61 @@
+.navbar{
+    height:65px;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 25px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    }
+    
+    .logo{
+    font-size:20px;
+    font-weight:bolder;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color: #6c2bd9;
+    }
+    
+    .profile-section{
+    position:relative;
+    }
+    
+    .profile img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    cursor:pointer;
+    }
+    
+    .dropdown{
+    position:absolute;
+    right:0;
+    top:50px;
+    background:white;
+    width:200px;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    .dropdown .name{
+    font-weight:600;
+    margin:0;
+    }
+    
+    .dropdown .email{
+    font-size:13px;
+    color:#777;
+    margin:4px 0 10px 0;
+    }
+    
+    .dropdown button{
+    width:100%;
+    background:#6c2bd9;
+    color:white;
+    border:none;
+    padding:8px;
+    border-radius:6px;
+    cursor:pointer;
+    }

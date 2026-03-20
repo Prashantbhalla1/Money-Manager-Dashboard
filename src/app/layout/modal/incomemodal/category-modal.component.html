@@ -1,0 +1,117 @@
+
+<ng-container *ngIf="pageType=='add'" >
+<div class="modal-header">
+  <h2 class="col-12 mb-0" mat-dialog-title>Add Income</h2>
+  </div>
+  
+  <div class="modal-body align-left">
+  
+  <mat-dialog-content class="dialog-content">
+  
+  <!-- <div class="icon-row col-12">
+    <span class="icon">💰</span>
+    <a class="change-icon">Change icon</a>
+  </div>
+   -->
+
+
+  <form [formGroup]="incomeForm">
+ 
+    <div class="form-group col-md-6">
+<label>Income Source</label>
+<input  formControlName="name"
+placeholder="Electricity, Wifi"
+class="form-control blue-regular"
+>
+    </div>
+
+
+    <div class="form-group col-md-6">
+<label>Category</label>
+
+<mat-select   class="form-control blue-regular" formControlName="categoryId">
+
+<mat-option *ngFor="let ele of categories"
+[value]="ele.id">
+
+{{ele.name}}
+
+</mat-option>
+
+</mat-select>
+
+</div>
+
+
+<div class="form-group col-md-6">
+<label>Amount</label>
+<input class="form-control blue-regular"   type="number"
+formControlName="amount">
+</div>
+
+
+<div class="form-group col-md-6">
+<label>Date</label>
+
+
+
+
+<div class="input-group">
+<input 
+class="form-control blue-regular"
+[matDatepicker]="picker"
+formControlName="date">
+
+<mat-datepicker-toggle
+matSuffix
+[for]="picker"></mat-datepicker-toggle>
+
+<mat-datepicker #picker></mat-datepicker>
+</div>
+</div>
+
+</form>
+
+  
+  </mat-dialog-content>
+  
+  
+  <mat-dialog-actions align="end" class="row col-12 mt-3 mb-3">
+  
+  <button mat-button (click)="close()">Cancel</button>
+  
+  <button style="background-color: #6c2bd9;" mat-raised-button color="primary" (click)="addIncome()">
+  Add Income
+  </button>
+  
+  </mat-dialog-actions>
+  
+  </div>
+  </ng-container>
+
+  <ng-container *ngIf="pageType=='delete'" >
+
+    <div class="modal-header">
+      <h2 class="col-12 mb-0" mat-dialog-title>Delete Income</h2>
+      </div>
+  
+      <div class="modal-body align-left">
+        <mat-dialog-content class="dialog-content">
+  <p class="Col-12 pl-3" > You want to delete {{data.data.name}} Income, Are you sure ? </p>
+  <mat-dialog-actions align="end" class="row col-12 mt-3 mb-3">
+  
+    <button mat-button (click)="close()">No</button>
+    
+    <button mat-raised-button (click)="delete()"
+    style="background-color: #6c2bd9;"
+    color="primary"
+    >
+   Yes
+    </button>
+    
+    </mat-dialog-actions>
+          </mat-dialog-content>
+          </div>
+  
+  
+  </ng-container>

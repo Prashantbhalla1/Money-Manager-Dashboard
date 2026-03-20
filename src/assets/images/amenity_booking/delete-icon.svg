@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="54" viewBox="0 0 56 54">
+  <defs>
+    <filter id="Ellipse_1528" x="0" y="0" width="56" height="54" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10224" data-name="Group 10224" transform="translate(-693 -302)">
+    <g transform="matrix(1, 0, 0, 1, 693, 302)" filter="url(#Ellipse_1528)">
+      <circle id="Ellipse_1528-2" data-name="Ellipse 1528" cx="22" cy="22" r="22" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="delete-photo" transform="translate(717 323)">
+      <path id="Path_1283" data-name="Path 1283" d="M176.415,246.334a.427.427,0,0,0,.427.427h10.848a.427.427,0,0,0,.427-.427V232.487h-11.7v13.847Zm8.255-11.491h1.6v9.317h-1.6Zm-3.205,0h1.6v9.317h-1.6Zm-3.205,0h1.6v9.317h-1.6Z" transform="translate(-175.25 -227.519)" fill="#0f1f54"/>
+      <path id="Path_1284" data-name="Path 1284" d="M132.493,1.964V.427A.427.427,0,0,0,132.066,0h-6.35a.427.427,0,0,0-.427.427V2.5H122.3a.427.427,0,0,0-.427.427V4.006a.427.427,0,0,0,.427.427H135.48a.427.427,0,0,0,.427-.427V2.926a.427.427,0,0,0-.427-.427h-2.987V1.964Zm-1.6.446h-4V1.6h4V2.41Z" transform="translate(-121.874)" fill="#0f1f54"/>
+    </g>
+  </g>
+</svg>

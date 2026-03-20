@@ -1,0 +1,38 @@
+<div class="login-page">
+
+    <!-- <div class="success-msg">
+      ✔ Profile created successfully.
+    </div>
+   -->
+    <div class="login-card">
+  
+      <h2>Welcome Back</h2>
+      <p class="subtitle">Please enter your details to login in</p>
+  
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  
+        <div class="input-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="name@example.com" formControlName="email">
+        </div>
+  
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="********" formControlName="password">
+        </div>
+  
+        <button type="submit" class="login-btn">
+          LOGIN
+        </button>
+  
+      </form>
+  
+      <p class="signup-text">
+        Don't have an account?
+        <span class="hover"  routerLink="/signup">Signup</span>
+        <span class="hover"  routerLink="/"> or Home</span>
+      </p>
+  
+    </div>
+  
+  </div>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89.142" height="89.142" viewBox="0 0 89.142 89.142">
+  <g id="Group_14519" data-name="Group 14519" transform="translate(-55.43 -50.678)" style="isolation: isolate">
+    <g id="Group_13484" data-name="Group 13484" transform="translate(55.43 50.677)">
+      <g id="Group_13535" data-name="Group 13535">
+        <path id="Path_13689" data-name="Path 13689" d="M44.571,0A44.571,44.571,0,1,1,0,44.571,44.571,44.571,0,0,1,44.571,0Z" transform="translate(0)" fill="none"/>
+      </g>
+      <path id="Subtraction_12" data-name="Subtraction 12" d="M41.6,83.2A41.61,41.61,0,0,1,25.407,3.269,41.61,41.61,0,0,1,57.792,79.93,41.338,41.338,0,0,1,41.6,83.2Z" transform="translate(2.971 2.972)" fill="none"/>
+      <path id="Path_13815" data-name="Path 13815" d="M0,0H24V24H0Z" transform="translate(32.57 32.571)" fill="none"/>
+      <g id="dashboard_black_24dp_4_" data-name="dashboard_black_24dp (4)" transform="translate(24.876 23.271)">
+        <path id="Path_14829" data-name="Path 14829" d="M0,0H39.389V39.389H0Z" fill="none"/>
+        <path id="Path_14830" data-name="Path 14830" d="M32.679,6.71v3.71h-7.42V6.71h7.42m-18.549,0v11.13H6.71V6.71h7.42M32.679,21.549v11.13h-7.42V21.549h7.42M14.13,28.969v3.71H6.71v-3.71h7.42M36.389,3H21.549V14.13H36.389ZM17.839,3H3V21.549H17.839ZM36.389,17.839H21.549V36.389H36.389Zm-18.549,7.42H3v11.13H17.839Z" transform="translate(0 0)" fill="#0f1f54"/>
+      </g>
+    </g>
+  </g>
+</svg>

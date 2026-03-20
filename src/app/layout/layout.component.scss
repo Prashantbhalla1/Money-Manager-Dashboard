@@ -1,0 +1,22 @@
+.layout{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    background:#f6f7fb;
+    }
+    
+    /* sidebar + content container */
+    
+    .main{
+    flex:1;
+    display:flex;
+    overflow:hidden;
+    }
+    
+    /* page content */
+    
+    .content{
+    flex:1;
+    padding:30px;
+    overflow:auto;
+    }

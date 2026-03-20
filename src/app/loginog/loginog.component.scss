@@ -1,0 +1,84 @@
+.login-page{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url('/assets/money-bg.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+  }
+  
+  .success-msg{
+    position:absolute;
+    top:80px;
+    background:#e8f7ed;
+    color:#2e7d32;
+    padding:10px 20px;
+    border-radius:6px;
+    font-size:14px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  }
+  
+  .login-card{
+    width:380px;
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+  }
+  
+  .login-card h2{
+    margin-bottom:5px;
+  }
+  
+  .subtitle{
+    color:#777;
+    font-size:14px;
+    margin-bottom:20px;
+  }
+  
+  .input-group{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    margin-bottom:15px;
+  }
+  
+  .input-group label{
+    font-size:13px;
+    margin-bottom:5px;
+  }
+  
+  .input-group input{
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:5px;
+  }
+  
+  .login-btn{
+    width:100%;
+    padding:12px;
+    background:#5c1fa3;
+    color:white;
+    border:none;
+    border-radius:6px;
+    margin-top:10px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  
+  .login-btn:hover{
+    background:#4a1584;
+  }
+  
+  .signup-text{
+    margin-top:15px;
+    font-size:14px;
+  }
+  
+  .signup-text span{
+    color:#5c1fa3;
+    cursor:pointer;
+  }

@@ -1,0 +1,140 @@
+<div class="filter-page">
+
+    <h2>Filter Transactions</h2>
+    
+    
+    <div class="filter-card">
+    
+    <h3>Select the filters</h3>
+    
+    <form [formGroup]="filterForm" class="">
+    
+<div class="form-row">
+
+
+
+
+     <div class="form-group col-md-2">
+    <label>Type</label>
+    
+    <mat-select class="form-control blue-regular" formControlName="type">
+    <mat-option value="Income">Income</mat-option>
+    <mat-option value="Expense">Expense</mat-option>
+    </mat-select>
+    
+     </div>
+    
+    
+     <div class="form-group col-md-2">
+    <label>Start Date</label>
+    <div class="input-group">
+    <input class="form-control blue-regular"
+    [matDatepicker]="startPicker"
+    formControlName="startDate">
+    
+    <mat-datepicker-toggle
+    matSuffix
+    [for]="startPicker"></mat-datepicker-toggle>
+    
+    <mat-datepicker #startPicker></mat-datepicker>
+</div>
+     </div>
+    
+    
+     <div class="form-group col-md-2">
+    <label>End Date</label>
+    <div class="input-group">
+    <input class="form-control blue-regular"
+    [matDatepicker]="endPicker"
+    formControlName="endDate">
+    
+    <mat-datepicker-toggle
+    matSuffix
+    [for]="endPicker"></mat-datepicker-toggle>
+    
+    <mat-datepicker #endPicker></mat-datepicker>
+</div>
+     </div>
+    
+    
+     <div class="form-group col-md-2">
+    <label>Sort Field</label>
+    
+    <mat-select  class="form-control blue-regular" formControlName="sortField">
+    <mat-option value="date">Date</mat-option>
+    <mat-option value="amount">Amount</mat-option>
+    </mat-select>
+    
+     </div>
+    
+    
+     <div class="form-group col-md-2">
+    <label>Sort Order</label>
+    
+    <mat-select  class="form-control blue-regular" formControlName="sortOrder">
+    <mat-option value="asc">Ascending</mat-option>
+    <mat-option value="desc">Descending</mat-option>
+    </mat-select>
+    
+     </div>
+    
+    
+     <div class="form-group col-md-2">
+    <label>Search</label>
+    <input class="form-control blue-regular" formControlName="search">
+     </div>
+    
+     <div class="form-group col-md-2">
+        <label></label>
+    <button
+    mat-raised-button
+    color="primary"
+    style="background-color: #6c2bd9;"
+    (click)="applyFilter()">
+    
+    Search
+    
+    </button>
+    </div>
+    
+   
+</div></form>
+    
+    </div>
+    
+    
+    <div class="transactions">
+    
+    <h3>Transactions</h3>
+    
+    <div
+    class="transaction-item"
+    *ngFor="let tx of transactions">
+    
+    <div class="left">
+    
+    <div class="icon">💰</div>
+    
+    <div>
+    <p>{{tx.name}}</p>
+    <span>{{tx.date}}</span>
+    </div>
+    
+    </div>
+    
+    <div
+    class="amount"
+    [ngClass]="{
+     income: tx.type=='Income',
+     expense: tx.type=='Expense'
+    }">
+    
+    {{tx.type=='Income' ? '+' : '-'}} ₹{{tx.amount}}
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>

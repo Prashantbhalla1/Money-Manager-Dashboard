@@ -1,0 +1,61 @@
+<div class="expense-page">
+
+    <div class="header">
+    
+    <h2>Expense Overview</h2>
+    
+    <button class="add-btn" (click)="openAddExpense()">
+    + Add Expense
+    </button>
+    
+    </div>
+    
+    
+    <div class="chart-card">
+    
+    <canvas id="expenseChart"></canvas>
+    
+    </div>
+    
+    
+    <div class="expense-list">
+    
+    <h3>All Expenses</h3>
+    
+    <div class="expense-item" *ngFor="let exp of expanses">
+
+        <!-- Hover Actions -->
+        <div class="actions">
+      
+          <!-- <span class="edit" (click)="editExpense(exp)">
+            <img  style="color:#6c2bd9 ; width: 50px;" src="../../../assets/images/edit-field.svg">
+          </span> -->
+      
+          <span class="delete" (click)="deleteExpense(exp)">
+            <img style="color:#6c2bd9 ; width: 50px;" src="../../../assets/images/delete-icon-new.svg">
+          </span>
+      
+        </div>
+      
+        <div class="left">
+      
+          <div class="icon">🔌</div>
+      
+          <div>
+            <p>{{exp.name}}</p>
+            <span>{{exp.date}}</span>
+          </div>
+      
+        </div>
+      
+        <div class="amount">
+          <span class="amount expense-badge">
+            - ₹{{exp.amount | number}} <span class="arrow">↘</span>
+          </span>
+        </div>
+      
+      </div>
+    
+    </div>
+    
+    </div>

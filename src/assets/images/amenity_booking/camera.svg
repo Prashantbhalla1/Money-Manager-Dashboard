@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <filter id="Ellipse_1213" x="0" y="0" width="46" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6988" data-name="Group 6988" transform="translate(-276 -352)">
+    <g transform="matrix(1, 0, 0, 1, 276, 352)" filter="url(#Ellipse_1213)">
+      <g id="Ellipse_1213-2" data-name="Ellipse 1213" transform="translate(9 6)" fill="#fff" stroke="#f4f4f4" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <g id="photo-camera" transform="translate(292 331.865)">
+      <g id="Group_6987" data-name="Group 6987" transform="translate(0 34.134)">
+        <path id="Path_6503" data-name="Path 6503" d="M11.9,36.038H9.891L9.5,34.494a.476.476,0,0,0-.462-.36H4.283a.476.476,0,0,0-.462.36l-.386,1.543H1.428A1.428,1.428,0,0,0,0,37.466v6.663a1.428,1.428,0,0,0,1.428,1.428H11.9a1.428,1.428,0,0,0,1.428-1.428V37.466A1.428,1.428,0,0,0,11.9,36.038ZM6.663,43.177a2.38,2.38,0,1,1,2.38-2.38A2.38,2.38,0,0,1,6.663,43.177Z" transform="translate(0 -34.134)" fill="#6d547c"/>
+      </g>
+    </g>
+  </g>
+</svg>
