@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { LoginService } from '../service/login-service.component';
 import { LoaderService } from '../loader/loader.service';
+import { MatSnackBar } from '@angular/material';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signup',
@@ -14,7 +16,9 @@ export class SignupComponent {
 
   constructor(private fb: FormBuilder,
 private loginService:LoginService,
-private loader:LoaderService
+private loader:LoaderService,
+private snackBar:MatSnackBar,
+private router:Router
 
   ) {
 
@@ -42,6 +46,10 @@ this.loginService.createProfile(payLoad))
 
 api$.subscribe((e)=>{
   console.log('profile created success')
+  this.snackBar.open("profile created successfully, Please login", "Close", {
+    duration:5000
+  });
+  this.router.navigate(['/login']);
 })
 
     }
